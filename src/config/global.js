@@ -1,9 +1,12 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo:
+      'Controles y estándares para el manejo de la seguridad de la información',
+    descripcionCurso:
+      'En este componente formativo se trabajarán las políticas para el manejo del riesgo y amenazas de seguridad, herramientas para la prevención y cuidado del uso del ciberespacio y el marco de trabajo de ciberseguridad NIST para la gestión de riesgos.',
+    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
+    fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -22,30 +25,36 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Riesgo y estimación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Controles de seguridad en una red',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Seguridad física y políticas de seguridad',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo:
+          'Estándar ISO 27001 y estándares para el manejo de la seguridad informática',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Análisis de riesgo y recuperación de desastres',
         desarrolloContenidos: true,
       },
     ],
@@ -88,34 +97,106 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      referencia: 'ESAP. (2018). Plan de recuperación de desastres.',
+      link:
+        'https://www.esap.edu.co/portal/wp-content/uploads/2019/03/Plan-de-Recuperaci%C3%B3n-de-Desastres-v1.pdf',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      referencia: 'ISACA. (s.f.). Cobit 5',
+      link:
+        'http://cotana.informatica.edu.bo/downloads/COBIT5-Framework-Spanish.pdf ',
+    },
+    {
+      referencia:
+        'NQA. (s.f.). ISO 27001:2013. Guía de implantación para la seguridad de la información.',
+      link:
+        'https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/Spanish%20QRFs%20and%20PDFs/NQA-ISO-27001-Guia-de-implantacion.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Cobit',
+      significado:
+        'Es un estándar de buenas prácticas para generar cultura organizacional y administrar los procesos que involucren tecnología, personas y procesos.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Contingencia',
+      significado:
+        'Componente que se establece cuando se generan situaciones de riesgo que pueden colocar en peligro la información o procesos de una organización.',
+    },
+    {
+      termino: 'ISO 27001',
+      significado:
+        'Es un estándar que permite la administración de la tecnología y los procesos que conlleva el aseguramiento de la seguridad de la información.',
+    },
+    {
+      termino: 'Modelo OSI',
+      significado:
+        'Es un estándar establecido para la comunicación entre dispositivos en todo el mundo.',
+    },
+    {
+      termino: 'PHVA',
+      significado:
+        'Es un enfoque de trabajo que permite gestionar procesos empresariales y realizar procesos de mejora continua.',
+    },
+    {
+      termino: 'Planificación',
+      significado:
+        'Es la manera como se debe estructurar la ruta de trabajo para que los procesos en una organización funcionen de manera correcta.',
+    },
+    {
+      termino: 'Riesgo',
+      significado:
+        'Posibilidad de que suceda un inconveniente que no permita el correcto funcionamiento del sistema.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+      texto: 'Seguridad física y políticas de seguridad',
+      tipo: 'Manual',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://dapre.presidencia.gov.co/dapre/DocumentosSIGEPRE/M-TI-01-Manual-Politicas-Seguridad-Informacion.pdf ',
+    },
+    {
+      texto:
+        'Estándar ISO27001 y estándares para el manejo de la seguridad informática',
+      tipo: 'Guía',
+      link:
+        'https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/Spanish%20QRFs%20and%20PDFs/NQA-ISO-27001-Guia-de-implantacion.pdf ',
+    },
+    {
+      texto:
+        'Estándar ISO27001 y estándares para el manejo de la seguridad informática',
+      tipo: 'Trabajo de grado',
+      link: 'http://polux.unipiloto.edu.co:8080/00003291.pdf ',
+    },
+    {
+      texto:
+        'Estándar ISO27001 y estándares para el manejo de la seguridad informática',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_virtualprovpro4403&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+    },
+    {
+      texto:
+        'Estándar ISO27001 y estándares para el manejo de la seguridad informática',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000069696&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+    },
+    {
+      texto: 'Análisis de riesgo y recuperación de desastres',
+      tipo: 'Documento',
+      link:
+        'https://www.esap.edu.co/portal/wp-content/uploads/2019/03/Plan-de-Recuperaci%C3%B3n-de-Desastres-v1.pdf',
+    },
+    {
+      texto: 'Análisis de riesgo y recuperación de desastres',
+      tipo: 'Documento',
+      link:
+        'http://cotana.informatica.edu.bo/downloads/COBIT5-Framework-Spanish.pdf',
     },
   ],
   creditos: {
@@ -131,7 +212,28 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Dulfran Antonio Montaño Montaño',
+        cargo: 'Experto temático',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Miroslava González Hernández',
+        cargo: 'Diseñadora y Evaluadora Instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor metodológico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -139,48 +241,59 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Edinson Eduardo Mantilla Cuadros',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gustavo Adolfo Marún Suárez',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },
