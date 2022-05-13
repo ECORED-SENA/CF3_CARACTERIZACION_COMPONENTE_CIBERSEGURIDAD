@@ -12,16 +12,16 @@
         p.mb-3 El estándar ISO 27001 es una norma para el aseguramiento de la seguridad de la información en una organización, en el cual se encuentran todos los lineamientos para su almacenamiento, mantenimiento, confidencialidad y uso. Este estándar es muy importante en las organizaciones y es exigido a las empresas para certificar el uso que le dan a los datos e información que estas manipulan.
         p.mb-0 El propósito de este estándar es garantizar el acceso y protección de la información de acuerdo con los lineamientos establecidos en este mismo estándar. En otras palabras, debe generar confianza y proveer los mecanismos de acceso y tratamiento de la información almacenada. Para ello, se establecen los siguientes riesgos que se pueden revisar en la figura 4:
 
-  
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-6.mb-0.cs
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-8
         .titulo-sexto.color-acento-botones
           h5 Figura 4. 
           span Tipos de riesgos
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-12(data-aos="fade")
-            figure
-              img.m-3(src='@/assets/curso/images/tema4/fig_1.svg')
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10(data-aos="fade")
+          figure
+            img.m-3(src='@/assets/curso/images/tema4/fig_1.svg')
 
 
     p.mb-3 Por su parte, el ciclo PHVA cumple con un propósito específico para la aplicación de la norma ISO 27001. Consiste en brindar los procesos que se deben seguir y su interrelación; es decir, garantiza la continuidad de los procesos establecidos en la norma ISO 27001 y aplica los enfoques de la mejora continua para cada uno de sus procesos (ver figura 5).
@@ -32,25 +32,35 @@
           h5 Figura 5. 
           span Ciclo PHVA
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-12(data-aos="fade")
+          .col-lg-8(data-aos="fade")
             figure
               img.m-3(src='@/assets/curso/images/tema4/fig_2.svg')
 
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5
+  
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-3.mb-0.mg-top-4.cs
+
     p.mb-3 Ahora bien, así como cualquier norma o estándar establecido, la ISO 27001 debe cumplir con unos procesos o cláusulas que garanticen la aplicabilidad de los procesos dentro de la organización. A continuación, se detalla cada una de ellas:
 
-    .row.align-items-evenly.justify-content-center.fondo-3.mb-5
+    .row.align-items-evenly.justify-content-center.mb-5
       .col-lg-8
         TabsA.color-acento-botones.mb-5(data-aos="fade")
-    
           .tarjeta.back-tab.p-4(titulo="Cláusula 1: Alcance")
             
             .row 
               .col-lg-12.mb-4
                 h4 Cláusula 1: Alcance
-                p.mb-3  ● Establecer el propósito de la norma en la organización.
-                p ● Cuáles son los tipos de organizaciones en los cuales se puede establecer la norma.
-                p ● Cuáles son los requisitos que debe cumplir la organización para garantizar el cumplimiento de la norma.
-              
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-circle
+                    | Establecer el propósito de la norma en la organización.
+                  li
+                    i.fas.fa-circle
+                    | Cuáles son los tipos de organizaciones en los cuales se puede establecer la norma.
+                  li
+                    i.fas.fa-circle
+                    | Cuáles son los requisitos que debe cumplir la organización para garantizar el cumplimiento de la norma.
+       
               p Es importante tener en cuenta que la aplicación de la norma puede ser implementada en cualquier tipo de organización, ya que esta provee los conceptos y principios para el correcto uso de la información. Su grado de complejidad puede estar sometido al tamaño de la organización y a su madurez para la implementación de la misma, aunque en la mayoría de los casos esto no llega a ser impedimento para que una empresa utilice la norma.
                 
           .tarjeta.back-tab.p-4(titulo="Cláusula 2: Referencias normativas")
@@ -76,7 +86,8 @@
                 p.mb-0 La norma conversa sobre los riesgos y tratamiento de los mismos al momento de realizar el proceso de manipulación de sistemas de información. También provee los mecanismos para el control de acceso a la evaluación de los riesgos y cómo estos deben ser tratados para evitar problemas de seguridad de la información dentro de la organización.
             
       .col-lg-4(data-aos="fade-left")
-        img(src='@/assets/curso/images/tema4/img_1.svg' alt='', style="width:300px; display:block; margin:auto 2.5rem;")
+        img(src='@/assets/curso/images/tema4/img_1_2.png' alt='', style="width:300px; display:block; margin:auto 2.5rem;")
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5
     br
     .row.justify-content-center.align-items-center.my-5
       .jumbotron-2
@@ -84,7 +95,7 @@
           .row.justify-content-center.p-4
             .col-auto
               p.text-white.mb-3 En la cláusula Contexto de la organización, como se mencionó, se deben tener en cuenta los aspectos tanto internos como externos de una empresa, tal como se presenta a continuación:
-        .row.justify-content-center.align-items-center.mt-5.p-5
+        .row.justify-content-evenly.align-items-center.mt-5.p-5
           .col-lg-5(data-aos="fade-right")
             img(src='@/assets/curso/images/tema4/img_2.svg' alt='', style="width:500px; display:block; margin:auto 0;")
           .col-lg-5(data-aos="fade-left")
@@ -104,7 +115,7 @@
                   .col-lg-12
                     p Se refiere a si es una organización que apenas está empezando a implementar dentro de sus procesos controles de seguridad o si ya tiene unos procesos implementados y que desea actualizar los que actualmente tiene o implementar nuevos procesos.
 
-        .row.justify-content-center.align-items-center.mt-5.p-5
+        .row.justify-content-evenly.align-items-center.mt-5.p-5
           .col-lg-5(data-aos="fade-left")
             h3.mb-5 Aspectos Externos
             LineaTiempoD
@@ -179,14 +190,14 @@
             .col-auto
               p.text-white.mb-3 <b>En la cláusula 7</b>, también se debe establecer qué información se requiere para la implementación del sistema de gestión de la información, la cual debe ser precisa, entendible para los involucrados en el proceso y apoyada en aspectos legales de la organización. Otros aspectos para tener en cuenta ya garantizar frente a este tema, se aprecian en la figura 7:
         .row.justify-content-center.mt-5.p-5
-          .col-lg-10
+          .col-lg-9
             .titulo-sexto.color-acento-botones
               h5 Figura 6. 
               span Aspectos a garantizar
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-10(data-aos="fade")
-            figure
-              img.m-3(src='@/assets/curso/images/tema4/fig_3.svg')  
+          .row.justify-content-center.align-items-center
+            .col-lg-10(data-aos="fade")
+              figure
+                img.m-3(src='@/assets/curso/images/tema4/fig_3.jpg')  
 
     .row.align-items-evenly.justify-content-center.mb-5
       .col-lg-12(data-aos="fade")
@@ -201,16 +212,22 @@
                 p.mb-3 La implementación de estos procesos del sistema de seguridad deben estar enmarcados en el cumplimiento de buenas prácticas. Algunas de los componentes a desarrollar para su correcto funcionamiento son los siguientes:
 
                 p.mb-3 La implementación de estos procesos del sistema de seguridad deben estar enmarcados en el cumplimiento de buenas prácticas. Algunas de los componentes a desarrollar para su correcto funcionamiento son los siguientes:
-
-                p.mb-3 ● Establecer una comunicación asertiva para la gestión de los riesgos encontrados en la seguridad de la información.
-
-                p.mb-3 ● Priorizar las actividades a desarrollar por parte del personal encargado en la organización.
-
-                p.mb-3 ● Realizar una adecuada asignación de responsabilidades que deben estar enmarcadas en el perfil de cado uno de los miembros del equipo de trabajo.
-
-                p.mb-3 ● Asignar los recursos tanto tecnológicos como humanos para ejecutar de la manera más apropiada el proceso de implementación del sistema.
-
-                p.mb-3 ● Etablecer la periodicidad de la evaluación del los procesos para determinar que estos están funcionando de la manera más eficiente y en pro de la gestión de la seguridad de la información. 
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-circle
+                    P Establecer una comunicación asertiva para la gestión de los riesgos encontrados en la seguridad de la información.
+                  li
+                    i.fas.fa-circle
+                    P Priorizar las actividades a desarrollar por parte del personal encargado en la organización.
+                  li
+                    i.fas.fa-circle
+                    P Realizar una adecuada asignación de responsabilidades que deben estar enmarcadas en el perfil de cado uno de los miembros del equipo de trabajo.
+                  li
+                    i.fas.fa-circle
+                    P Asignar los recursos tanto tecnológicos como humanos para ejecutar de la manera más apropiada el proceso de implementación del sistema.
+                  li
+                    i.fas.fa-circle
+                    P Etablecer la periodicidad de la evaluación del los procesos para determinar que estos están funcionando de la manera más eficiente y en pro de la gestión de la seguridad de la información. 
 
           .tarjeta.back-tab.p-4(titulo="Cláusula 9: Desempeño y evaluación")
             

@@ -6,21 +6,28 @@
       .titulo-principal__numero
         span 5
       h1 Análisis de riesgo y recuperación de desastres
-
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-6.mb-0.cs
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-12
         p.mb-3 Se denomina desastre a cualquier evento que sucede de manera repentina y que ocasiona que los procesos que realiza una organización se detengan por completo; esto implica toda actividad, sea de índole económica o social. En el caso específico de la seguridad de la información son sucesos que afectan el correcto funcionamiento hasta llegar a la interrupción de la disponibilidad de los servicios informáticos.
 
         p.mb-0  El plan de recuperación de desastres, también denominado DRP, por sus siglas en inglés, es un mecanismo para establecer la prioridad de los eventos causados y la responsabilidad que esto implica en la organización. 
     
-    .bloque-texto-a.color-custom-6.p-md-2.mb-5
+    .bloque-texto-g.color-custom-6.p-sm-4.p-md-4.mb-5.d-none.d-lg-block
+      .bloque-texto-g__img.m-left(
+    :style="{'background-image': `url(${require('@/assets/curso/images/tema5/img_1_1.svg')})`}"
+    )
+      .bloque-texto-g__texto.p-4.my-5
+        p.mb-5 Los planes de recuperación de desastres establecen procedimientos y métricas para analizar los posibles desastres y cómo se puede recuperar el sistema después de ocurridos estos eventos, dentro de los cuales pueden existir causas que no son predecibles en momentos determinados como son los desastres naturales.de comportamiento ha cambiado a lo largo de los tiempos, ya que los ataques son cada vez más directos y dañinos.
+
+    .bloque-texto-a.color-custom-6.p-md-0.mb-5.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
-          .bloque-texto-a__texto.p-5
-            p Los planes de recuperación de desastres establecen procedimientos y métricas para analizar los posibles desastres y cómo se puede recuperar el sistema después de ocurridos estos eventos, dentro de los cuales pueden existir causas que no son predecibles en momentos determinados como son los desastres naturales.
+          .bloque-texto-a__texto.p-5.my-5
+            p Los planes de recuperación de desastres establecen procedimientos y métricas para analizar los posibles desastres y cómo se puede recuperar el sistema después de ocurridos estos eventos, dentro de los cuales pueden existir causas que no son predecibles en momentos determinados como son los desastres naturales.de comportamiento ha cambiado a lo largo de los tiempos, ya que los ataques son cada vez más directos y dañinos.
         .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/images/tema5/img_1.svg')
+            img(src='@/assets/curso/images/tema5/img_1.svg' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="fade")
@@ -39,7 +46,7 @@
       .col-lg-10(data-aos="fade")
         figure
           img.m-3(src='@/assets/curso/images/tema5/fig_1.svg')  
-
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5
     p.mb-3 Cabe destacar que la implementación de un plan de recuperación de desastres contiene varios aspectos para tener en cuenta, a continuación se pueden conocer:
 
     .row.justify-content-center.align-items-center.mt-5.p-3
@@ -71,15 +78,15 @@
               .col-lg-12
                 p.mb-3 La activación del plan de recuperación de desastres debe establecer los escenarios necesarios para la adaptación o implementación del sistema de recuperación. Cada uno de ellos debe permitir coordinar y efectuar la implementación del plan, sin necesidad de afectar el sistema actual que este implementado. Se debe tener en cuenta aspectos tales como: el impacto y los problemas de implementación que se pueden presentar, la modificación o cambios que se realicen deben estar debidamente autorizados por el grupo de recuperación y establecer, de acuerdo a los niveles de contingencia, los tiempos en la activación del plan.
                 .row.justify-content-center.p-5
-                  .col-lg-10
+                  .col-lg-12
                     .titulo-sexto.color-acento-botones
                       h5 Figura 9. 
                       span Declaración del desastre
 
-                .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-10
-                    figure
-                      img.m-3(src='@/assets/curso/images/tema5/fig_2.svg') 
+                  .row.justify-content-center.align-items-center.mb-5
+                    .col-lg-12
+                      figure
+                        img.m-3(src='@/assets/curso/images/tema5/fig_2.svg') 
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-6.mb-3(data-aos="fade-left")
@@ -102,7 +109,7 @@
                 p.mb-3 En este proceso se realiza el inventario de activos que posee la compañía y luego se asigna un valor para establecer las amenazas y riesgos a los que estos pueden estar expuestos. Adicional a ello, se debe determinar el impacto que generaría si alguno de estos dispositivos es vulnerado y cuánto sería el tiempo estimado para su recuperación o puesta en marcha.
                 p.mb-0 Todo esto se puede determinar realizando una lista de chequeo con dicha información y que este documento sea conocido por el grupo de recuperación de desastre. Así mismo, se pueden crear los mecanismos de protección y manipulación de estos dispositivos, su ubicación y protección tanto física como lógica.
       .col-lg-6(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema5/img_3.png' alt='', style="width:500px; display:block; margin:auto 1rem;")
+        img(src='@/assets/curso/images/tema5/img_3.png' alt='', style="width:500px; display:block; margin:auto -0.5rem;").mb-3
 
     p.mb-3 Ahora bien, para la gestión de todos esos procesos se encuentra lo que se conoce como Cobit, el cual es un marco de trabajo establecido para garantizar el gobierno de tecnología a través del establecimiento de guías y procesos que aseguren un correcto manejo de la información en las organizaciones (ver figura 10).
 
@@ -111,31 +118,31 @@
         .titulo-sexto.color-acento-botones
           h5 Figura 10. 
           span Entorno Cobit
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10(data-aos="fade")
-        figure
-          img.mb-2(src='@/assets/curso/images/tema5/fig_3.svg') 
-          figcaption Nota. Tomado de ISACA (s.f.).
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10(data-aos="fade")
+          figure
+            img.mb-2(src='@/assets/curso/images/tema5/fig_3.svg') 
+            figcaption Nota. Tomado de ISACA (s.f.).
 
     p.mb-3 Ya sabiendo lo anterior, es preciso saber que Cobit comprende cinco principios de trabajo que estipulan la manera en cómo interactúan los procesos dentro de una organización. A continuación se pueden reconocer:
 
     h3.text-center.mb-5 Principios Cobit
 
     .row.justify-content-center.mb-3
-      .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex(data-aos="fade")
-        .tarjeta-numerada.color-acento-botones.p-5
+      .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="fade")
+        .tarjeta-numerada.color-acento-botones.h-100.p-5.mx-3
           .tarjeta-numerada__numero
             .h2 1
           p.mb-0 La satisfacción de las partes involucradas en los procesos de la empresa. Este aspecto está estrechamente relacionado con la gobernanza, establece que realizar un correcto proceso conlleva un correcto entendimiento de las personas, tecnología y procesos en una organización.
 
-      .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex(data-aos="fade")
-        .tarjeta-numerada.color-acento-contenido.p-5
+      .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="fade")
+        .tarjeta-numerada.color-acento-contenido.h-100.p-5.mx-3
           .tarjeta-numerada__numero
             .h2 2
           p.mb-4 Se refiere al cubrimiento total de los procesos de la empresa. Esto implica que no solo se concentra en la tecnología, dispositivos, hardware y software sino que involucra al factor humano como eje fundamental en los objetivos de la organización.
 
-      .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex(data-aos="fade")
-        .tarjeta-numerada.color-primario.p-5
+      .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="fade")
+        .tarjeta-numerada.color-primario.h-100.p-5.mx-3
           .tarjeta-numerada__numero
             .h2 3
           p.mb-1 Aplica un marco de referencia integrado en el cual se implementan buenas prácticas para lograr que los procesos funcionen de manera articulada y correcta.
@@ -144,27 +151,27 @@
 
     .row.justify-content-center.mb-5
   
-      .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex(data-aos="fade")
-        .tarjeta-numerada.color-secundario.p-5.mb-3
+      .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="fade")
+        .tarjeta-numerada.color-secundario.h-100.p-5.mb-3
           .tarjeta-numerada__numero
             .h2 4
           p  Requiere un enfoque holístico en el cual se tienen en cuenta los principios de la organización, los procesos, la estructura organizativa, la cultura organizacional y la información como eje fundamental de los componentes misionales de la organización.
       
-      .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex(data-aos="fade")
-        .tarjeta-numerada.color-primario.p-5
+      .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="fade")
+        .tarjeta-numerada.color-primario.h-100.p-5
           .tarjeta-numerada__numero.color-custom-7
             .h2 5
           p.mb-0  Se deben separar los componentes de gestión de los componentes de gobierno. Es decir, dividir las necesidades primarias, ya que estas generan el equilibrio y son la razón de ser del negocio, y, por otra parte, la gestión, la cual genera un punto de equilibrio entre todos los componentes de la organización.
 
 
-    .bloque-texto-a.color-custom-6.p-md-2.mb-5
+    .bloque-texto-a.color-custom-6.p-md-0.mb-5
       .row.m-4.align-items-center.justify-content-between
         .col-lg-8.mb-3(data-aos="fade-right")
-          .bloque-texto-a__texto.p-4
+          .bloque-texto-a__texto.p-4.my-5
             p Cabe destacar que Cobit es válido en su aplicación para cualquier organización teniendo grandes beneficios en la optimización de procesos y mejorando los niveles de riesgo de los recursos tecnológicos. Es una herramienta esencial para el gobierno de tecnología en una organización, ya que este entrega las guías que se deben tener en cuenta para realizar un proceso de gestión de la tecnología y la información de manera adecuada, permitiendo, además, que la infraestructura como la información funcionen de una manera armónica.
         .col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/images/tema5/img_4.svg' alt='', style="width:500px; display:block; margin:auto -1.5rem;")
+            img(src='@/assets/curso/images/tema5/img_4.svg')
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="fade")

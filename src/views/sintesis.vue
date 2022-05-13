@@ -8,7 +8,16 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade")
         img(src="@/assets/curso/images/tema5/info_sintesis.svg")
-
+    
+    .row.align-items-center.justify-content-center.mb-3   
+      .col-auto(data-aos="zoom-in-down")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Síntesis
+      
+   
 </template>
 
 <script>

@@ -11,14 +11,22 @@
       .col-lg-12(data-aos="fade")
         p.mb-0 En la actualidad el riesgo informático se ha convertido en uno de los temas de mayor conversación a lo largo del mundo, puesto que en tiempos actuales ha generado pánico entre la comunidad internacional. Por ejemplo, se han escuchado de ataques informáticos tales como Ransomware, que han desatado la pérdida de millones de dólares a empresas y particulares.
 
-    .bloque-texto-a.color-custom-1.p-md-0
+    
+    .bloque-texto-g.color-custom-1.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
+      .bloque-texto-g__img.m-left.p-5(
+    :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1_1.svg')})`}"
+    )
+      .bloque-texto-g__texto.p-4.my-5.p-5
+        p.mb-5 Esta realidad lleva a reflexionar que los riesgos están presentes y llegaron para quedarse. No obstante, este tipo de comportamiento ha cambiado a lo largo de los tiempos, ya que los ataques son cada vez más directos y dañinos.
+    
+    .bloque-texto-a.color-custom-6.p-md-0.mb-5.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
-          .bloque-texto-a__texto.p-5
+          .bloque-texto-a__texto.p-5.my-5
             p Esta realidad lleva a reflexionar que los riesgos están presentes y llegaron para quedarse. No obstante, este tipo de comportamiento ha cambiado a lo largo de los tiempos, ya que los ataques son cada vez más directos y dañinos.
         .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/images/tema1/img_1.svg')
+            img(src='@/assets/curso/images/tema1/img_1.svg' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
 
     p.mb-5 El riesgo latente es la carencia de seguridad o de tranquilidad que no permite el correcto funcionamiento de los procesos empresariales y personales a lo largo del mundo. De ahí que las compañías hoy día invierten cantidades considerables de millones de dólares para minimizar los riesgos a los cuales están expuestos todos los días.
 
@@ -58,14 +66,14 @@
     p.mb-3 El riesgo y la estimación van acompañados, ya que ambos impactan los planes de contingencia y de recuperación de la empresa. La siguiente figura 1 expone la importancia de este balance.
 
     .row.justify-content-center
-      .col-lg-12
+      .col-lg-10
         .titulo-sexto.color-acento-botones
           h5 Figura 1. 
           span El riesgo y la estimación
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-12(data-aos="fade")
-            figure
-              img.m-3(src='@/assets/curso/images/tema1/img_2.svg')
+    .row.justify-content-center.mb-5
+      .col-lg-10-xl-5(data-aos="fade")
+        figure
+          img.m-3(src='@/assets/curso/images/tema1/img_2.svg')
     
     p.mb-5 La matriz de riesgo es una herramienta que permite establecer cuáles son las amenazas y cuánto es el valor que las coloca en un rango de mayor prioridad. Por ejemplo, un ataque por virus es muy diferente a un ataque de <i>ransomware</i>, pues el impacto que este generaría es diferente y la mitigación y manera de prevenirlo es totalmente distinta; para este caso particular se debe tener en cuenta la categorización de impacto: bajo, medio y alto, dependiendo del daño que pueda ocasionar y qué tanto puede hacer que el negocio se detenga, tal como se observa en el ejemplo de la figura 2:
 
@@ -81,9 +89,9 @@
     
     .jumbotron.p-5(data-aos="fade")
       .row.align-items-center.justify-content-center
-        .col-lg-2
-          img(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:100px; display:block; margin:auto0 ;")
-        .col-lg-10
+        .col-lg-1
+          img.mx-1(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:100px; display:block; margin:auto0 ;")
+        .col-lg-11
           h3 Para recordar
           p.mb-3 La relación que existe entre el riesgo y la estimación siempre será uno de los pilares relevantes de toda empresa, puesto que involucra a todo el personal, como aquellos que deben velar por la seguridad y la información de la misma.      
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5  

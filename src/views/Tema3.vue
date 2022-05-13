@@ -8,9 +8,11 @@
       h1 Seguridad física y políticas de seguridad
 
     p.mb-3 La seguridad física es uno de los aspectos fundamentales en una organización. Esta permite crear los mecanismos de barrera para salvaguardar los activos de la misma; sabiendo esto, a continuación, se precisan algunos conceptos en la figura 3:
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.cs.mg-top-1(data-aos="fade")
+
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-5.mb-0.cs
+
     .row.justify-content-center
-      .col-lg-12
+      .col-lg-12(data-aos="fade")
         .titulo-sexto.color-acento-botones
           h5 Figura 3. 
           span Conceptos de mecanismos de seguridad
@@ -19,50 +21,69 @@
         .tarjeta.tarjeta-up
           img(src="@/assets/curso/images/tema3/tj_1.svg", alt= "")
           .tarjeta-up__content.bg-1
-            h4.text-center Activo físico:
+            h4 Activo físico:
             p Es todo aquel elemento tangible dentro de un espacio; es decir, todo aquello que se puede palpar; un ejemplo de ello, es una computadora, una mesa, una silla, entre otros.
       .col-lg-3.col-auto.mb-3.mb-lg-0
         .tarjeta.tarjeta-up
           img(src="@/assets/curso/images/tema3/tj_2.svg", alt= "")
           .tarjeta-up__content.bg-1
-            h4.text-center Seguridad física:
+            h4 Seguridad física:
             p Busca garantizar la seguridad de los activos físicos, colocando barreras para su protección. Un ejemplo puede ser el guardia de seguridad, quien se encarga de verificar a las personas que ingresan a la organización.
       .col-lg-3.col-auto.mb-3.mb-lg-0
         .tarjeta.tarjeta-up
           img(src="@/assets/curso/images/tema3/tj_3.svg", alt= "")
           .tarjeta-up__content.bg-1
-            h4.text-center Otros:
+            h4 Otros:
             p Otro ejemplo puede ser hasta una puerta, en la cual solo el personal autorizado o personas que tengan la llave o mecanismo de autenticación pueden ingresar a esos espacios. 
   
-  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
+  
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="fade")
         .cajon.color-custom-2.p-4.mb-3
           p.mb-3 Como se puede apreciar la seguridad física se encarga de velar por los controles físicos establecidos para prevenir la intrusión o vulnerabilidades de la infraestructura de una organización. En estos elementos se pueden consagrar dispositivos, personas y toda medida que permita asegurar los bienes de la organización.
+  
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
 
     p.mb-3 Existen muchos aspectos a considerar con respecto a la seguridad física, la cual como se ha expresado, es un conjunto de medidas que permiten garantizar el acceso y control de los lugares de la empresa. Si se explora un poco sobre algunos de estos, se verá que estas medidas van desde la instalación de cámaras de seguridad, sensores, tarjetas inteligentes hasta lectores de huella.
 
-    .bloque-texto-g.color-custom-5.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-custom-5.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
       .bloque-texto-g__img(data-aos="fade-right")(
         :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_1.png')})`}"
       )
       .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
         p.mb-0 En este aspecto, cabe decir, que estas medidas, a pesar de contener componentes tecnológicos, también se hace presente el factor humano, es decir: un celador o guarda de seguridad; por ejemplo, que interactúa en la infraestructura de la empresa como un componente de seguridad y que también toma un valor importante en la misma.
 
+    .bloque-texto-a.color-custom-6.p-md-0.mb-5.d-block.d-lg-none
+      .row.m-4.align-items-center.justify-content-between
+        .col-lg-9(data-aos="fade-right")
+          .bloque-texto-a__texto.p-5.my-5
+            p En este aspecto, cabe decir, que estas medidas, a pesar de contener componentes tecnológicos, también se hace presente el factor humano, es decir: un celador o guarda de seguridad; por ejemplo, que interactúa en la infraestructura de la empresa como un componente de seguridad y que también toma un valor importante en la misma.
+        .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
+          figure
+            img(src='@/assets/curso/images/tema3/img_1.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
 
     p.mb-3 Ahora bien, por otra parte, también se encuentran las políticas de seguridad como un factor primordial y complementario a la seguridad física. Son aspectos que se deben tener en cuenta para el cumplimiento de normas y estatutos orientados a la preservación de los datos e información de una empresa, aunque de igual manera, se debe tener en cuenta que los activos físicos de la compañía se deben proteger en ese mismo sentido.
 
-    .bloque-texto-g.color-custom-1.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-custom-1.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
       .bloque-texto-g__img.m-left(data-aos="fade-left")(
     :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_2.png')})`}"
     )
       .bloque-texto-g__texto.p-5(data-aos="fade-right")
         p.mb-3 Las políticas son implementadas para dar cumplimiento a los procesos misionales de la organización; es decir, deben estar conectados con la misión de la empresa y sirven de apoyo para lograrlo de una manera adecuada y sin ningún percance.
 
+    .bloque-texto-a.color-custom-6.p-md-0.mb-5.d-block.d-lg-none
+      .row.m-4.align-items-center.justify-content-between
+        .col-lg-9(data-aos="fade-right")
+          .bloque-texto-a__texto.p-5.my-5
+            p Las políticas son implementadas para dar cumplimiento a los procesos misionales de la organización; es decir, deben estar conectados con la misión de la empresa y sirven de apoyo para lograrlo de una manera adecuada y sin ningún percance.
+        .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
+          figure
+            img(src='@/assets/curso/images/tema3/img_2.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
+
     p.mb-3 De todos los procesos que se llevan a cabo en la organización, el establecer políticas es uno de los más complejos puesto que cada usuario dentro de su proceso quiere tener autonomía en lo que realiza dentro de la empresa. Se puede ver a continuación algunos de esos mecanismos de políticas de seguridad que se implementan en las organizaciones:
 
-    ImagenInfograficaB.color-acento-botones.mb-3(data-aos="fade")
+    ImagenInfograficaB.color-acento-botones.mb-3
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/images/tema3/info_1.svg', alt='Texto que describa la imagen')
@@ -142,14 +163,14 @@
 
             p.mb-0 Lo primero que se debe establecer es la responsabilidad de los usuarios en el uso de sus credenciales, las cuales son intransferibles. Por otro lado al momento de solicitar el cambio de contraseña, ya que este proceso se debe llevar a cabo con una periodicidad establecida, la cual puede variar de acuerdo a políticas, debe ser solicitado al personal de tecnología de la empresa o cumplir con algunos criterios mínimos, que se han expuesto anteriormente. 
 
-    p.mb3(data-aos="fade") Lo anterior refleja el panorama genérico de la importancia de establecer políticas de seguridad que garanticen el correcto funcionamiento de los elementos de tecnología de una organización.
+    p.mb3(data-aos="fade")  genérico de la importancia de establecer políticas de seguridad que garanticen el correcto funcionamiento de los elementos de tecnología de una organización.
 
 
     .jumbotron.p-5(data-aos="fade")
       .row.align-items-center.justify-content-center
-        .col-lg-2
-          img(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:100px; display:block; margin:auto 0;")
-        .col-lg-10
+        .col-lg-1
+          img.mx-1(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:100px; display:block; margin:auto 0;")
+        .col-lg-11
           h3 Para recordar
           p.mb-3 La definición de una adecuada política minimiza el riesgo de comprometer la información y los datos que se ingresan y procesan en un sistema de información. La seguridad física de una organización, por su parte, no solo son elementos tecnológicos sino que también involucra el personal responsable de asegurar y resguardar la información.
 
@@ -181,7 +202,7 @@ export default {
     position: absolute
     bottom: -200%
     width: 100%
-    height: 90%
+    height: 60%
     padding: 2rem
     transition: bottom 0.7s ease-in-out
     &.bg-1
