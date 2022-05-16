@@ -3,6 +3,11 @@
   background-image: url("../assets/curso/images/header/interno.svg") !important
   background-repeat: no-repeat 
 
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, banner-principal h5, .banner-principal h6 
+
+.banner-principal__img img
+  width: auto
+
 .color-custom-1
 	background-color: #A7B4FF 
 	&::before
@@ -36,20 +41,30 @@
 .color-custom-7
   background-color: #2269DB !important
 
+.fondo
+  background-image: url('../assets/curso/images/tema2/back_1.svg')
+  background-size: cover
+  background-repeat: no-repeat
+
+
 .fondo-1
   background-image: url('../assets/curso/images/tema1/back_1.svg')
   background-size: 1400px
   background-repeat: no-repeat
-  @media screen and ( max-width: 992px )
+  @media screen and ( max-width: 390px )
     margin-left: -10px
 
 .fondo-2
   background-image: url('../assets/curso/images/tema2/back_2.png')
   background-size: cover
   background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: 540%
+    background-repeat: no-repeat
+    margin-left: -10px
 
 .fondo-3
-  background-image: url('../assets/curso/images/tema4/back_1_1.svg')
+  background-image: url('../assets/curso/images/tema4/back_1_3.svg')
   background-size: cover
   background-repeat: no-repeat
 
@@ -63,6 +78,8 @@
   background-image: url('../assets/curso/images/tema1/back_1.svg')
   background-size: 1400px
   background-repeat: no-repeat
+  @media screen and ( max-width: 992px )
+    margin-left: -10px
 
 .fondo-6
   background-image: url('../assets/curso/images/tema4/back_3.svg')
@@ -102,6 +119,9 @@
 .mg-top-1
   margin-top: -15px
 
+.top
+  margin-top: 30px
+
 .mg-top-2
   top: 20rem
 
@@ -134,10 +154,9 @@
   border-bottom-left-radius: 15px
 
 .jumbotron
-  background-color:#A7B4FF
-  @media (max-width: 992px)
+  background-color: rgba(167, 180, 255, 0.25)
+  @media (max-width: 390px)
     width: 380px
-    margin-left: 10px
     margin-bottom: -40px !important 
 
 .contenedor-text-1
@@ -169,8 +188,8 @@
   border-top-right-radius: 50px
   border-bottom-right-radius: 50px
   border-bottom-left-radius: 50px
-  @media screen and ( max-width: 992px )
-    width: 420px
+  @media screen and ( max-width: 390px )
+    width: 600px
     margin-left: -5px
 
 
@@ -180,12 +199,20 @@
 .linea-tiempo-d__item__content__title 
   cursor: pointer
   font-size: 20px
+.linea-tiempo-d__item__dots::after 
+  content: ''
+  display: block
+  width: 0
+  height: 100%
+  border-left: 5px dotted #DCDFEE
 
 .m-left
   left: 50% !important 
 .cs
   overflow-y: hidden
 
+.bloque-texto-g__texto
+  height: 250px
 .mg-b
  bottom: -5rem
 
@@ -207,6 +234,10 @@
   border-radius: 3rem
   max-width: 70%
   margin: -5rem auto 3rem
+
+.font-size
+  font-size: 10px
+
   
 .bloque-texto-g.color-secundario
   background-color: rgba(3,155,229,.25) !important

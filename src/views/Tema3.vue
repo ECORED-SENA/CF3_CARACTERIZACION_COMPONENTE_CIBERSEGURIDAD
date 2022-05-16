@@ -37,13 +37,13 @@
             p Otro ejemplo puede ser hasta una puerta, en la cual solo el personal autorizado o personas que tengan la llave o mecanismo de autenticación pueden ingresar a esos espacios. 
   
   
-
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="fade")
         .cajon.color-custom-2.p-4.mb-3
           p.mb-3 Como se puede apreciar la seguridad física se encarga de velar por los controles físicos establecidos para prevenir la intrusión o vulnerabilidades de la infraestructura de una organización. En estos elementos se pueden consagrar dispositivos, personas y toda medida que permita asegurar los bienes de la organización.
-  
+
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
+  
 
     p.mb-3 Existen muchos aspectos a considerar con respecto a la seguridad física, la cual como se ha expresado, es un conjunto de medidas que permiten garantizar el acceso y control de los lugares de la empresa. Si se explora un poco sobre algunos de estos, se verá que estas medidas van desde la instalación de cámaras de seguridad, sensores, tarjetas inteligentes hasta lectores de huella.
 
@@ -89,8 +89,8 @@
           img(src='@/assets/curso/images/tema3/info_1.svg', alt='Texto que describa la imagen')
           
       div(x="21%" y="27%" tooltip="Política de estructura organizacional de seguridad de la información")
-        .row
-          .col-lg-2
+        .row.justify-content-center
+          .col-3.col-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/images/tema3/ico_1.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-lg-10
             h5.mb-2 Política de estructura organizacional de seguridad de la información
@@ -98,64 +98,64 @@
         
 
       div(x="21%" y="49%" tooltip="Política de seguridad para los recursos humanos")
-        .row
-          .col-lg-2
+        .row.justify-content-center
+          .col-3.col-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/images/tema3/ico_2.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-lg-10
             .h5.mb-2 Política de seguridad para los recursos humanos
             p En este caso particular se debe realizar un proceso de selección de las personas que serán contratadas para el control y manipulación de los procesos de seguridad dentro de la organización. Esto se debe realizar teniendo en cuenta la verificación de antecedentes, y bajo las políticas de tratamiento de datos establecidos en la Ley 1581 de 2012 Hábeas data.
 
       div(x="21%" y="70%" tooltip="Política de uso de internet")
-        .row
-          .col-lg-2
+        .row.justify-content-center
+          .col-3.col-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/images/tema3/ico_3.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-lg-10
             .h5.mb-2 Política de uso de internet
             p Esto debe estar establecido de acuerdo a garantizar la eliminación de posibles huecos de seguridad que se puedan presentar, teniendo en cuenta que la conexión de los equipos de la empresa a diferentes sitios de internet hacen parte de los procesos misionales de la empresa. Se deben crear restricciones para el acceso de algunos sitios y procesos que pueden colocar en riesgo la información y la infraestructura de la misma. También, se hace necesario determinar cuáles serán los permisos y acceso que tendrán los usuarios de acuerdo al estudio de seguridad que se realice.
 
       div(x="64%" y="35%" tooltip="Política de clasificación de la información")
-        .row
-          .col-lg-2
+        .row.justify-content-center
+          .col-3.col-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/images/tema3/ico_4.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-lg-10
             .h5.mb-2 Política de clasificación de la información
             p Esta política lo que intenta es clasificar la información de acuerdo al nivel de acceso y tratamiento que esta debe tener dentro de la organización. Esto implica tener claro cuál es el protocolo de tratamiento y manipulación por el personal de la empresa. Para ello se ha establecido los siguientes niveles de clasificación: información pública, privada y sensible.
 
       div(x="81%" y="22%" tooltip="Información pública")
-        .row
-          .col-lg-2
+        .row.justify-content-center
+          .col-3.col-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/images/tema3/ico_5.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-lg-10
             .h5.mb-2 Información pública
             p Es información que se suministra por parte de un usuario pero que no incurre en ninguna penalización; es decir, es de dominio público, como el nombre, contacto telefónico, correo electrónico, edad, entre otros.
 
       div(x="81%" y="33%" tooltip="Información privada")
-        .row
-          .col-lg-2
+        .row.justify-content-center
+          .col-3.col-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/images/tema3/ico_6.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-lg-10
             .h5.mb-2 Información privada
             p Es información que se debe trabajar con un esquema de protección mucho más secreto; es decir, son datos que no puede ser conocidos de manera pública o directa por cualquier persona y necesitan un manejo mucho más complejo. Ejemplo: datos bancarios, datos de religión, preferencia sexual, declaración de renta, entre otros que en algún momento pueden colocar en riesgo la integridad de la persona.
 
       div(x="81%" y="45%" tooltip="Información sensible")
-        .row
-          .col-lg-2
+        .row.justify-content-center
+          .col-3.col-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/images/tema3/ico_6.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-lg-10
             .h5.mb-2 Información sensible
             p Esta información puede ser manipulada bajo estrictos protocolos de administración y manejo puesto que son datos que podrían, en algún momento, colocar en riesgo la vida de una persona o su imagen ante la sociedad, entre otras cosas; tales datos podrían ser: historia clínica, preferencias religiosas, personas que han sido amenazadas, entraría la información de ubicación o rutas por donde se moviliza, entre otros.
 
       div(x="64%" y="57%" tooltip="Política de control de acceso")
-        .row
-          .col-lg-2
+        .row.justify-content-center
+          .col-3.col-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/images/tema3/ico_6.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-lg-10
             .h5.mb-2 Política de control de acceso
             p Este aspecto está relacionado con las adquisiciones que se realizan desde el departamento de tecnologías, el cual debe haber realizado un estudio previo  de acuerdo a la viabilidad y necesidades tanto de usuarios como de la infraestructura de la empresa.  En algunas ocasiones es importante tener en cuenta que en la mayoría de los casos estos procesos de adquisición tanto de hardware como de software deben estar avalados por una licitación, en la que participen distintos interesados para sí proceder a estudiar dichas propuestas y determinar cuál cumple con los requerimientos que se necesitan.
 
       div(x="64%" y="79%" tooltip="Política de establecimiento, uso y protección de claves de acceso")
-        .row
-          .col-lg-2
+        .row.justify-content-center
+          .col-3.col-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/images/tema3/ico_6.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-lg-10
             .h5.mb-2 Política de establecimiento, uso y protección de claves de acceso
@@ -166,7 +166,7 @@
     p.mb3(data-aos="fade")  genérico de la importancia de establecer políticas de seguridad que garanticen el correcto funcionamiento de los elementos de tecnología de una organización.
 
 
-    .jumbotron.p-5(data-aos="fade")
+    .jumbotron.p-3(data-aos="fade")
       .row.align-items-center.justify-content-center
         .col-lg-1
           img.mx-1(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:100px; display:block; margin:auto 0;")
@@ -202,7 +202,7 @@ export default {
     position: absolute
     bottom: -200%
     width: 100%
-    height: 60%
+    height: 88%
     padding: 2rem
     transition: bottom 0.7s ease-in-out
     &.bg-1

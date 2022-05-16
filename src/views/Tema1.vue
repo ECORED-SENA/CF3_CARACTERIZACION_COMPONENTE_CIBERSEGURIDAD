@@ -12,17 +12,20 @@
         p.mb-0 En la actualidad el riesgo informático se ha convertido en uno de los temas de mayor conversación a lo largo del mundo, puesto que en tiempos actuales ha generado pánico entre la comunidad internacional. Por ejemplo, se han escuchado de ataques informáticos tales como Ransomware, que han desatado la pérdida de millones de dólares a empresas y particulares.
 
     
-    .bloque-texto-g.color-custom-1.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
-      .bloque-texto-g__img.m-left.p-5(
-    :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1_1.svg')})`}"
+    .bloque-texto-g.color-custom-1.p-md-4.mb-5.d-none.d-lg-block
+      .bloque-texto-g__img.m-left(
+    :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1_1.png')})`}"
     )
-      .bloque-texto-g__texto.p-4.my-5.p-5
-        p.mb-5 Esta realidad lleva a reflexionar que los riesgos están presentes y llegaron para quedarse. No obstante, este tipo de comportamiento ha cambiado a lo largo de los tiempos, ya que los ataques son cada vez más directos y dañinos.
-    
+      .bloque-texto-g__texto.my-4.p-5.mx-4
+        br 
+        p Esta realidad lleva a reflexionar que los riesgos están presentes y llegaron para quedarse. No obstante, este tipo de comportamiento ha cambiado a lo largo de los tiempos, ya que los ataques son cada vez más directos y dañinos.
+
+
+
     .bloque-texto-a.color-custom-6.p-md-0.mb-5.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
-          .bloque-texto-a__texto.p-5.my-5
+          .bloque-texto-a__texto.p-4.my-5
             p Esta realidad lleva a reflexionar que los riesgos están presentes y llegaron para quedarse. No obstante, este tipo de comportamiento ha cambiado a lo largo de los tiempos, ya que los ataques son cada vez más directos y dañinos.
         .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
           figure
@@ -83,11 +86,11 @@
           h5 Figura 2. 
           span Matriz de riesgo
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-12(data-aos="fade")
+          .col-lg-10(data-aos="fade")
             figure
               img.m-3(src='@/assets/curso/images/tema1/figure_1.svg')
     
-    .jumbotron.p-5(data-aos="fade")
+    .jumbotron.p-3(data-aos="fade")
       .row.align-items-center.justify-content-center
         .col-lg-1
           img.mx-1(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:100px; display:block; margin:auto0 ;")

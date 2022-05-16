@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'En este componente formativo se trabajarán las políticas para el manejo del riesgo y amenazas de seguridad, herramientas para la prevención y cuidado del uso del ciberespacio y el marco de trabajo de ciberseguridad NIST para la gestión de riesgos.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal_2.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
   menuPrincipal: {

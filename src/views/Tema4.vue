@@ -52,13 +52,13 @@
                 h4 Cláusula 1: Alcance
                 ul.lista-ul--color
                   li 
-                    i.fas.fa-circle
+                    i.fas.fa-circle.font-size
                     | Establecer el propósito de la norma en la organización.
                   li
-                    i.fas.fa-circle
+                    i.fas.fa-circle.font-size
                     | Cuáles son los tipos de organizaciones en los cuales se puede establecer la norma.
                   li
-                    i.fas.fa-circle
+                    i.fas.fa-circle.font-size
                     | Cuáles son los requisitos que debe cumplir la organización para garantizar el cumplimiento de la norma.
        
               p Es importante tener en cuenta que la aplicación de la norma puede ser implementada en cualquier tipo de organización, ya que esta provee los conceptos y principios para el correcto uso de la información. Su grado de complejidad puede estar sometido al tamaño de la organización y a su madurez para la implementación de la misma, aunque en la mayoría de los casos esto no llega a ser impedimento para que una empresa utilice la norma.
@@ -86,7 +86,7 @@
                 p.mb-0 La norma conversa sobre los riesgos y tratamiento de los mismos al momento de realizar el proceso de manipulación de sistemas de información. También provee los mecanismos para el control de acceso a la evaluación de los riesgos y cómo estos deben ser tratados para evitar problemas de seguridad de la información dentro de la organización.
             
       .col-lg-4(data-aos="fade-left")
-        img(src='@/assets/curso/images/tema4/img_1_2.png' alt='', style="width:300px; display:block; margin:auto 2.5rem;")
+        img(src='@/assets/curso/images/tema4/img_1_2.png' alt='', style="width:340px; display:block; margin:auto 2.5rem;")
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5
     br
     .row.justify-content-center.align-items-center.my-5
@@ -101,16 +101,16 @@
           .col-lg-5(data-aos="fade-left")
             h3.mb-5 Aspectos Internos
             LineaTiempoD
-              .p-4(titulo='Formato de la información' numero='1')
+              .p(titulo='Formato de la información' numero='1')
                 .row.align-items-center
                   .col-lg-12
                     p conocer los tipos de información que maneja y el porcentaje que tiene en cada una; por ejemplo, información impresa, digital, en medios magnéticos o en la nube. Este aspecto es importante para establecer los mecanismos de acceso y protección de estos activos.
-              .p-4(titulo='Cultura organizacional' numero='2')
+              .p(titulo='Cultura organizacional' numero='2')
                 .row.align-items-center
                   .col-lg-12
                     p Se puede establecer en el cómo trabajan las personas en la organización, lo cual también puede definir una ruta específica o maneras de realizar los procesos por parte de la organización.
 
-              .p-4(titulo='Nivel de madurez' numero='3')
+              .p(titulo='Nivel de madurez' numero='3')
                 .row.align-items-center
                   .col-lg-12
                     p Se refiere a si es una organización que apenas está empezando a implementar dentro de sus procesos controles de seguridad o si ya tiene unos procesos implementados y que desea actualizar los que actualmente tiene o implementar nuevos procesos.
@@ -119,26 +119,26 @@
           .col-lg-5(data-aos="fade-left")
             h3.mb-5 Aspectos Externos
             LineaTiempoD
-              .p-4(titulo='Autorización de cambios' numero='1')
+              .p(titulo='Autorización de cambios' numero='1')
                 .row.align-items-center
                   .col-lg-12
                     p Autorización de cambios: se establece si esta necesita de algún agente externo ante el cual la organización no tenga ningún control, es decir que dependa de terceros para poder implementar el modelo o estándar.
-              .p-4(titulo='Nivel económico' numero='2')
+              .p(titulo='Nivel económico' numero='2')
                 .row.align-items-center
                   .col-lg-12
                     p Que esta se encuentre por crecimientos en la economía o manejo de alguna moneda en particular, lo cual puede afectar en la implementación de procesos que vayan en contra de estos principios y/o procesos.
 
-              .p-4(titulo='Competencia' numero='3')
+              .p(titulo='Competencia' numero='3')
                 .row.align-items-center
                   .col-lg-12
                     p Cuáles son los rivales o mercados que pueden colocar en riesgo el funcionamiento de la organización, y adicional a ello qué tan competitivo es el mercado en el que esta se encuentra y qué cambios debe realizar periódicamente para mantenerse competitiva frente a la competencia.
 
-              .p-4(titulo='Manejo del medio ambiente' numero='4')
+              .p(titulo='Manejo del medio ambiente' numero='4')
                 .row.align-items-center
                   .col-lg-12
                     p En qué lugar se encuentra la infraestructura la cual pueda tener problemas como inundaciones, terremotos y/o cualquier desastre natural que pueda ocasionar riesgo en la continuidad del negocio, y qué mecanismos o planes de emergencia tiene establecidos para mitigar estos aspectos de seguridad.
 
-              .p-4(titulo='Ataques informáticos' numero='5')
+              .p(titulo='Ataques informáticos' numero='5')
                 .row.align-items-center
                   .col-lg-12
                     p Verificar la frecuencia o huecos de seguridad que puede tener la empresa y que pueden ocasionar que la información se coloque en riesgo bajo la gravedad de los ataques informáticos y qué se hace para minimizar estos comportamientos delictivos.
@@ -214,19 +214,19 @@
                 p.mb-3 La implementación de estos procesos del sistema de seguridad deben estar enmarcados en el cumplimiento de buenas prácticas. Algunas de los componentes a desarrollar para su correcto funcionamiento son los siguientes:
                 ul.lista-ul--color
                   li 
-                    i.fas.fa-circle
+                    i.fas.fa-circle.font-size
                     P Establecer una comunicación asertiva para la gestión de los riesgos encontrados en la seguridad de la información.
                   li
-                    i.fas.fa-circle
+                    i.fas.fa-circle.font-size
                     P Priorizar las actividades a desarrollar por parte del personal encargado en la organización.
                   li
-                    i.fas.fa-circle
+                    i.fas.fa-circle.font-size
                     P Realizar una adecuada asignación de responsabilidades que deben estar enmarcadas en el perfil de cado uno de los miembros del equipo de trabajo.
                   li
-                    i.fas.fa-circle
+                    i.fas.fa-circle.font-size
                     P Asignar los recursos tanto tecnológicos como humanos para ejecutar de la manera más apropiada el proceso de implementación del sistema.
                   li
-                    i.fas.fa-circle
+                    i.fas.fa-circle.font-size
                     P Etablecer la periodicidad de la evaluación del los procesos para determinar que estos están funcionando de la manera más eficiente y en pro de la gestión de la seguridad de la información. 
 
           .tarjeta.back-tab.p-4(titulo="Cláusula 9: Desempeño y evaluación")
@@ -251,7 +251,7 @@
 
                 p.mb-3 Otra de las cosas a analizar es el estudio detallado de los eventos presentados, este histórico de información permite hacer no solo un balance sino establecer la raíz de muchos de los sucesos presentados, lo que conlleva a la creación de una ruta de trabajo para generar mejores aplicaciones.
 
-    .jumbotron.p-5
+    .jumbotron.p-3
       .row.align-items-center.justify-content-center
         .col-lg-2(data-aos="fade")
           img(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:100px; display:block; margin:auto 0;")
