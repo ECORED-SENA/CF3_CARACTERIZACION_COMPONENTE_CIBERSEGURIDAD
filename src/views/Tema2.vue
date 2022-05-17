@@ -80,8 +80,8 @@
 
     p.mb-5 De igual forma, la manera en la que se establecerá la comunicación entre dos o más equipos en una red también es fundamental. El modelo de referencia OSI refleja los protocolos y fases en las cuales se establece dicha interacción entre las computadoras. Es la referencia en donde se puede observar la transformación de la información, pues cada capa de este modelo realiza su aporte a la comunicación y con base en este estándar se crean las reglas para establecer dicho proceso. Siguiendo esta línea, a continuación, se detalla cada una:
   
-  .container.bg-white.px-md-5.px-3.py-0.container-top.fondo-2.mb-0.cs
-    .row.justify-content-center.align-items-end.mb-5.p-4(data-aos="fade")
+  .container.bg-white.px-md-5.px-3.py-0.container-top.fondo-2.mb-0.cs.d-none.d-lg-block
+    .row.justify-content-center.align-items-center.mb-5.p-4(data-aos="fade")
       .col-lg-6.p-1.mb-2
         LineaTiempoD
           .p-1(titulo='Aplicación' numero='7')
@@ -123,6 +123,45 @@
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5.cs  
 
+    .row.justify-content-center.align-items-center.fondo-mobile.mb-5.p-4.d-block.d-lg-none
+      .col-lg-6.p-1.mb-2
+        LineaTiempoD
+          .p-1(titulo='Aplicación' numero='7')
+            .row.align-items-center
+              .col-lg-12
+                p Esta capa brinda soporte a los software que se utilizan y su propósito dentro de la infraestructura, esto incluye la utilización de diferentes protocolos de comunicación tales como: HTTP, FTP, SMTP, POP, entre 
+          .p-1(titulo='Presentación' numero='6')
+            .row.align-items-center
+              .col-lg-12
+                p En esta capa se realiza la representación de los datos e información que se muestra al usuario. También se realiza el proceso de encriptación de los datos y provee los mecanismos de interacción con los datos que se almacenan o procesan en el sistema.
+
+          .p-1(titulo='Sesión' numero='5')
+            .row.align-items-center
+              .col-lg-12
+                p Establece los tiempos que debe durar la conexión de acuerdo a la comunicación establecida entre las dos partes. Este aspecto es importante debido a que la sesión se mantendrá abierta, siempre y cuando se encuentre el host conectado; una vez se desconecta, se debe cerrar o destruir la sesión.
+          
+          .p-1(titulo='Transporte' numero='4')
+            .row.align-items-center
+              .col-lg-12
+                p Realiza el transporte de los datos de forma segura entre un extremo y el otro. En esta capa también  se utilizan de dos tipos de protocolos esenciales para este proceso, los UDP y TCP. El primero hace el proceso pero no asegura la retroalimentación de si el paquete o dato llegó de manera correcta, mientras que el segundo sí garantiza la llegada y corrobora que los datos llegaron de forma correcta.
+              
+
+          .p-1(titulo='Red' numero='3')
+            .row.align-items-center
+              .col-lg-12
+                p Se encarga de transmitir los datos entre los diferentes host de la red y mantener las conexiones mientras se transmiten los datos entre extremos.  Esto concluye cuando se realiza la entrega de los datos o paquetes enviados entre los host.
+
+          .p-1(titulo='Enlace de datos' numero='2')
+            .row.align-items-center
+              .col-lg-12
+                p Realiza la revisión de errores al momento del envío de los datos o paquetes a través de la red. Adicional a ello, controla el flujo de datos entre los diferentes host de la red y provee la secuencia de entrega de los diferentes paquetes.
+            
+          .p-1(titulo='Físico' numero='1')
+            .row.align-items-center
+              .col-lg-12
+                p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada host de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
+      .col-lg-5.mt-5(data-aos="fade-right")     
+        img(src='@/assets/curso/images/tema2/img_6.svg'  alt='', style="width:360px; display:block; margin: -1.5rem 1rem;")
     .jumbotron.p-3(data-aos="fade")
       .row.align-items-center.justify-content-center
         .col-lg-1

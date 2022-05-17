@@ -7,7 +7,7 @@
 
 .banner-principal__img img
   width: auto
-
+  
 .color-custom-1
 	background-color: #A7B4FF 
 	&::before
@@ -59,10 +59,11 @@
   background-size: cover
   background-repeat: no-repeat
   @media screen and (max-width: 992px)
-    background-size: 540%
+    background-size: cover
     background-repeat: no-repeat
     margin-left: -10px
-
+    height: 80rem
+   
 .fondo-3
   background-image: url('../assets/curso/images/tema4/back_1_3.svg')
   background-size: cover
@@ -88,10 +89,9 @@
   @media screen and ( max-width: 992px )
     margin-left: -13px
 
-
 .bg_grad-01
   position: relative
-  row, p, .cajon, .video, .tarjeta
+  .row, p, .cajon, .col, .tarjeta
     position: relative
   &::before
     content: ''
@@ -99,15 +99,25 @@
     margin: 0
     top: 0
     left: 0
-    width: 100%
-    height: 100%
+    width: 420%
+    height: 85%
     background-image: url("../assets/curso/images/tema1/back_1.svg")
     background-repeat: no-repeat
-    background-size: contain
+    background-size: cover
+    margin-inline-start: -48px !important
+    margin-inline-end: -49px !important
     @media screen and ( max-width: 420px )
       margin: 0 -23px
       width: calc(100% + 46px)
       top: 20px
+
+.fondo-mobile
+  background-image: url('../assets/curso/images/tema2/back_2_1_2.svg')
+  background-size: cover
+  background-repeat: no-repeat
+
+  
+
 .container-top
   border-radius: 0px 0px 0 0
 .container-bottom
@@ -155,9 +165,11 @@
 
 .jumbotron
   background-color: rgba(167, 180, 255, 0.25)
-  @media (max-width: 390px)
-    width: 380px
+  @media (max-width: 992px)
+    width: 340px
     margin-bottom: -40px !important 
+    margin-left: 12px
+    height: 430px
 
 .contenedor-text-1
   position: absolute

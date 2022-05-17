@@ -9,41 +9,39 @@
 
     p.mb-3 La seguridad física es uno de los aspectos fundamentales en una organización. Esta permite crear los mecanismos de barrera para salvaguardar los activos de la misma; sabiendo esto, a continuación, se precisan algunos conceptos en la figura 3:
 
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-5.mb-0.cs
+  
+    .row.justify-content-center.align-items-center.bg_grad-01.mb-3
+      .row.justify-content-center
+        .col-lg-12(data-aos="fade")
+          .titulo-sexto.color-acento-botones
+            h5 Figura 3. 
+            span Conceptos de mecanismos de seguridad
+      .row.justify-content-center.mb-5
+        .col-lg-3.col-auto.mb-3.mb-lg-0
+          .tarjeta.tarjeta-up
+            img(src="@/assets/curso/images/tema3/tj_1.svg", alt= "")
+            .tarjeta-up__content.bg-1
+              h4 Activo físico:
+              p Es todo aquel elemento tangible dentro de un espacio; es decir, todo aquello que se puede palpar; un ejemplo de ello, es una computadora, una mesa, una silla, entre otros.
+        .col-lg-3.col-auto.mb-3.mb-lg-0
+          .tarjeta.tarjeta-up
+            img(src="@/assets/curso/images/tema3/tj_2.svg", alt= "")
+            .tarjeta-up__content.bg-1
+              h4 Seguridad física:
+              p Busca garantizar la seguridad de los activos físicos, colocando barreras para su protección. Un ejemplo puede ser el guardia de seguridad, quien se encarga de verificar a las personas que ingresan a la organización.
+        .col-lg-3.col-auto.mb-3.mb-lg-0
+          .tarjeta.tarjeta-up
+            img(src="@/assets/curso/images/tema3/tj_3.svg", alt= "")
+            .tarjeta-up__content.bg-1
+              h4 Otros:
+              p Otro ejemplo puede ser hasta una puerta, en la cual solo el personal autorizado o personas que tengan la llave o mecanismo de autenticación pueden ingresar a esos espacios. 
+    
+    
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-10(data-aos="fade")
+          .cajon.color-custom-2.p-4.mb-3
+            p.mb-3 Como se puede apreciar la seguridad física se encarga de velar por los controles físicos establecidos para prevenir la intrusión o vulnerabilidades de la infraestructura de una organización. En estos elementos se pueden consagrar dispositivos, personas y toda medida que permita asegurar los bienes de la organización.
 
-    .row.justify-content-center
-      .col-lg-12(data-aos="fade")
-        .titulo-sexto.color-acento-botones
-          h5 Figura 3. 
-          span Conceptos de mecanismos de seguridad
-    .row.justify-content-center.mb-5
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema3/tj_1.svg", alt= "")
-          .tarjeta-up__content.bg-1
-            h4 Activo físico:
-            p Es todo aquel elemento tangible dentro de un espacio; es decir, todo aquello que se puede palpar; un ejemplo de ello, es una computadora, una mesa, una silla, entre otros.
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema3/tj_2.svg", alt= "")
-          .tarjeta-up__content.bg-1
-            h4 Seguridad física:
-            p Busca garantizar la seguridad de los activos físicos, colocando barreras para su protección. Un ejemplo puede ser el guardia de seguridad, quien se encarga de verificar a las personas que ingresan a la organización.
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema3/tj_3.svg", alt= "")
-          .tarjeta-up__content.bg-1
-            h4 Otros:
-            p Otro ejemplo puede ser hasta una puerta, en la cual solo el personal autorizado o personas que tengan la llave o mecanismo de autenticación pueden ingresar a esos espacios. 
-  
-  
-    .row.justify-content-center.align-items-center.mb-3
-      .col-lg-10(data-aos="fade")
-        .cajon.color-custom-2.p-4.mb-3
-          p.mb-3 Como se puede apreciar la seguridad física se encarga de velar por los controles físicos establecidos para prevenir la intrusión o vulnerabilidades de la infraestructura de una organización. En estos elementos se pueden consagrar dispositivos, personas y toda medida que permita asegurar los bienes de la organización.
-
-  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
-  
 
     p.mb-3 Existen muchos aspectos a considerar con respecto a la seguridad física, la cual como se ha expresado, es un conjunto de medidas que permiten garantizar el acceso y control de los lugares de la empresa. Si se explora un poco sobre algunos de estos, se verá que estas medidas van desde la instalación de cámaras de seguridad, sensores, tarjetas inteligentes hasta lectores de huella.
 

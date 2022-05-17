@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="588" height="624" viewBox="0 0 588 624">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.138" cy="0.549" r="0.711" gradientTransform="matrix(1, 0.009, -0.018, 1.918, 0.01, -0.505)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a394e"/>
+      <stop offset="1" stop-color="#738fb6"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.862" cy="0.549" r="0.711" gradientTransform="matrix(-1, 0.009, 0.018, 1.918, 1.715, -0.512)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g id="Grupo_211923" data-name="Grupo 211923" transform="translate(-180 -2824)">
+    <rect id="Rectángulo_66092" data-name="Rectángulo 66092" width="273" height="456" transform="translate(217 2992)" fill="url(#radial-gradient)"/>
+    <rect id="Rectángulo_59521" data-name="Rectángulo 59521" width="588" height="588" transform="translate(180 2824)" fill="url(#radial-gradient-2)"/>
+    <path id="Polígono_26" data-name="Polígono 26" d="M147.5,0,295,513H0Z" transform="translate(180 2873)" fill="#fff" opacity="0.2"/>
+    <text id="_1" data-name="1" transform="translate(298 3387.93)" fill="#111e61" font-size="24" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+  </g>
+</svg>
