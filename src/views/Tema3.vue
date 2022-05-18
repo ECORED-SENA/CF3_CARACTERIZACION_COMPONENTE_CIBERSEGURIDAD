@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.bg-white.container-top.p-4.p-md-5
+  .container.bg-white.container-top.p-4.p-md-5.cs
     .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 3
