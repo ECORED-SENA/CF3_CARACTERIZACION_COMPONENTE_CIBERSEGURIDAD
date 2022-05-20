@@ -8,6 +8,9 @@
 .banner-principal__img img
   width: auto
   
+.color-custom
+  background-color: #DCDFEE !important
+  
 .color-custom-1
 	background-color: #A7B4FF 
 	&::before
@@ -112,7 +115,7 @@
       top: 20px
 
 .fondo-mobile
-  background-image: url('../assets/curso/images/tema2/back_2_1_2.svg')
+  background-image: url('../assets/curso/images/tema2/back_mobile_3.png')
   background-size: cover
   background-repeat: no-repeat
 
@@ -123,8 +126,13 @@
 .container-bottom
   border-radius: 0 0 20px 20px
 
-.tarjeta 
+.tarjeta-1
   border-radius: 0px
+
+.tarjeta-up .tarjeta-up__content.bg-1 
+  background-color: rgba(255, 255, 255, 0.9)
+  bottom: -70%
+
 
 .mg-top-1
   margin-top: -15px
@@ -152,9 +160,10 @@
   width: 450px
   margin-bottom: -70px !important
   @media (max-width: 992px)
-    width: 430px
-    margin-left: -120px
+    width: 370px
+    margin-left: -60px
     margin-bottom: -98px !important
+    font-size: 14px
 
 .tarjeta-blue-1
   background-color: #D0D7FF
@@ -180,6 +189,9 @@
   background-repeat: no-repeat
   background-size: cover
   background-color: #301850
+  @media (max-width: 992px)
+    width: 95%
+    margin-top: 10px  
   
   //filter: drop-shadow(2px 4px 6px grey)
   display: flex
@@ -342,3 +354,38 @@
 .tarjeta.color-acento-botones--borde
   border: none
   background-color: #DCDFEE
+
+.linea-tiempo-d.color-secundario.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__number
+      background-color: #DCDFEE
+      color: $color-sistema-texto
+    .linea-tiempo-d__item__content
+      background-color: #DCDFEE
+      color: #000
+
+.linea-tiempo-d__item__content__title:hover 
+  font-weight: 700
+  background-color: #DCDFEE
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+  font-weight: 700
+  background-color: #DCDFEE
+
+.linea-tiempo-d__item__content__title 
+  display: flex
+  align-items: center
+  height: 63px
+  cursor: pointer
+
+.tarjeta-up .tarjeta-up__content 
+  position: absolute
+  bottom: -200%
+  width: 100%
+  height: 85%
+  padding: 2rem
+  transition: bottom 0.7s ease-in-out
+  @media (max-width: 992px)
+    height: 98%
+    bottom: -100%
+

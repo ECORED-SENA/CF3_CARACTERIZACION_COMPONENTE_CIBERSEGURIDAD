@@ -99,51 +99,51 @@
           .col-lg-5(data-aos="fade-right")
             img(src='@/assets/curso/images/tema4/img_2.svg' alt='', style="width:500px; display:block; margin:auto 0;")
           .col-lg-5(data-aos="fade-left")
-            h3.mb-5 Aspectos Internos
-            LineaTiempoD
-              .p(titulo='Formato de la información' numero='1')
+            h3.my-5 Aspectos Internos
+            LineaTiempoD.color-secundario.especial
+              .row(titulo='Formato de la información' numero='1')
                 .row.align-items-center
                   .col-lg-12
                     p conocer los tipos de información que maneja y el porcentaje que tiene en cada una; por ejemplo, información impresa, digital, en medios magnéticos o en la nube. Este aspecto es importante para establecer los mecanismos de acceso y protección de estos activos.
-              .p(titulo='Cultura organizacional' numero='2')
+              .row(titulo='Cultura organizacional' numero='2')
                 .row.align-items-center
                   .col-lg-12
                     p Se puede establecer en el cómo trabajan las personas en la organización, lo cual también puede definir una ruta específica o maneras de realizar los procesos por parte de la organización.
 
-              .p(titulo='Nivel de madurez' numero='3')
+              .row(titulo='Nivel de madurez' numero='3')
                 .row.align-items-center
                   .col-lg-12
                     p Se refiere a si es una organización que apenas está empezando a implementar dentro de sus procesos controles de seguridad o si ya tiene unos procesos implementados y que desea actualizar los que actualmente tiene o implementar nuevos procesos.
 
-        .row.justify-content-evenly.align-items-center.mt-5.p-5
+        .row.justify-content-evenly.align-items-center.p-5
           .col-lg-5(data-aos="fade-left")
             h3.mb-5 Aspectos Externos
-            LineaTiempoD
-              .p(titulo='Autorización de cambios' numero='1')
+            LineaTiempoD.color-secundario.especial
+              .row(titulo='Autorización de cambios' numero='1')
                 .row.align-items-center
                   .col-lg-12
                     p Autorización de cambios: se establece si esta necesita de algún agente externo ante el cual la organización no tenga ningún control, es decir que dependa de terceros para poder implementar el modelo o estándar.
-              .p(titulo='Nivel económico' numero='2')
+              .row(titulo='Nivel económico' numero='2')
                 .row.align-items-center
                   .col-lg-12
                     p Que esta se encuentre por crecimientos en la economía o manejo de alguna moneda en particular, lo cual puede afectar en la implementación de procesos que vayan en contra de estos principios y/o procesos.
 
-              .p(titulo='Competencia' numero='3')
+              .row(titulo='Competencia' numero='3')
                 .row.align-items-center
                   .col-lg-12
                     p Cuáles son los rivales o mercados que pueden colocar en riesgo el funcionamiento de la organización, y adicional a ello qué tan competitivo es el mercado en el que esta se encuentra y qué cambios debe realizar periódicamente para mantenerse competitiva frente a la competencia.
 
-              .p(titulo='Manejo del medio ambiente' numero='4')
+              .row(titulo='Manejo del medio ambiente' numero='4')
                 .row.align-items-center
                   .col-lg-12
                     p En qué lugar se encuentra la infraestructura la cual pueda tener problemas como inundaciones, terremotos y/o cualquier desastre natural que pueda ocasionar riesgo en la continuidad del negocio, y qué mecanismos o planes de emergencia tiene establecidos para mitigar estos aspectos de seguridad.
 
-              .p(titulo='Ataques informáticos' numero='5')
+              .row(titulo='Ataques informáticos' numero='5')
                 .row.align-items-center
                   .col-lg-12
                     p Verificar la frecuencia o huecos de seguridad que puede tener la empresa y que pueden ocasionar que la información se coloque en riesgo bajo la gravedad de los ataques informáticos y qué se hace para minimizar estos comportamientos delictivos.
           .col-lg-5(data-aos="fade-right")
-            img(src='@/assets/curso/images/tema4/img_3.svg' alt='', style="width:500px; display:block; margin:auto 0;")
+            img.mt-5(src='@/assets/curso/images/tema4/img_3.svg' alt='', style="width:500px; display:block; margin:auto 0;")
          
     .row.align-items-evenly.justify-content-center.mb-5
       .col-lg-12

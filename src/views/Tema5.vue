@@ -7,7 +7,7 @@
         span 5
       h1 Análisis de riesgo y recuperación de desastres
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-6.mb-0.cs
-    .row.align-items-center.justify-content-center.mb-5
+    .row.align-items-center.justify-content-center.mb-5.p-2
       .col-lg-12
         p.mb-3 Se denomina desastre a cualquier evento que sucede de manera repentina y que ocasiona que los procesos que realiza una organización se detengan por completo; esto implica toda actividad, sea de índole económica o social. En el caso específico de la seguridad de la información son sucesos que afectan el correcto funcionamiento hasta llegar a la interrupción de la disponibilidad de los servicios informáticos.
 
@@ -32,15 +32,15 @@
           figure
             img(src='@/assets/curso/images/tema5/img_1.svg' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3.p-2
       .col-lg-10(data-aos="fade")
         .cajon.color-custom-2.p-4.mb-3
           p.mb-3 Como en toda organización deben existir responsables de los procesos que se llevan a cabo. El caso de la recuperación de desastres no es la excepción a la regla, de hecho en este proceso no solo se debe establecer <b>el grupo de responsables</b>, quienes deben velar porque los planes de recuperación funcionen, sino que deben establecer un <b>comité específico para su vigilancia y supervisión</b>. Este comité está en la facultad de determinar la validez del plan de recuperación de desastres con base en la evaluación de incidentes presentados o que pueden llegar a presentarse. Adicional a ello, se establece la aprobación para la adquisición de recursos que pueden ser tecnológicos o humanos para velar por el cumplimiento y ejecución del plan de recuperación de desastres.
 
-    p.mb-3 Cada grupo tiene a su cargo la implementación del plan de recuperación de desastres de acuerdo con las responsabilidades establecidas y equivalentes a los tiempos de respuesta establecidos para el cumplimiento de los planes, tal como se expone en la siguiente figura 8:
+    p.mb-3.p-2 Cada grupo tiene a su cargo la implementación del plan de recuperación de desastres de acuerdo con las responsabilidades establecidas y equivalentes a los tiempos de respuesta establecidos para el cumplimiento de los planes, tal como se expone en la siguiente figura 8:
 
     .row.justify-content-center.p-5
-      .col-lg-10
+      .col-lg-8
         .titulo-sexto.color-acento-botones
           h5 Figura 7. 
           span Responsabilidades de los responsables
@@ -56,7 +56,7 @@
       .col-lg-6.mb-3(data-aos="fade-right")
         img(src='@/assets/curso/images/tema5/img_2.png' alt='', style="width:500px; display:block; margin:auto 0;")
       .col-lg-6(data-aos="fade-left")
-        LineaTiempoD
+        LineaTiempoD.color-secundario.especial
           .p(titulo='Disponibilidad' numero='1')
             .row.align-items-center
               .col-lg-12
@@ -93,7 +93,7 @@
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-6.mb-3(data-aos="fade-left")
-        LineaTiempoD
+        LineaTiempoD.color-secundario.especial
           .p(titulo='Notificación de eventos' numero='5')
             .row.align-items-center
               .col-lg-12

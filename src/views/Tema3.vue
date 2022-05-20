@@ -18,19 +18,19 @@
             span Conceptos de mecanismos de seguridad
       .row.justify-content-center.mb-5
         .col-lg-3.col-auto.mb-3.mb-lg-0
-          .tarjeta.tarjeta-up
+          .tarjeta-1.tarjeta-up
             img(src="@/assets/curso/images/tema3/tj_1.svg", alt= "")
             .tarjeta-up__content.bg-1
               h4 Activo físico:
               p Es todo aquel elemento tangible dentro de un espacio; es decir, todo aquello que se puede palpar; un ejemplo de ello, es una computadora, una mesa, una silla, entre otros.
         .col-lg-3.col-auto.mb-3.mb-lg-0
-          .tarjeta.tarjeta-up
+          .tarjeta-1.tarjeta-up
             img(src="@/assets/curso/images/tema3/tj_2.svg", alt= "")
             .tarjeta-up__content.bg-1
               h4 Seguridad física:
               p Busca garantizar la seguridad de los activos físicos, colocando barreras para su protección. Un ejemplo puede ser el guardia de seguridad, quien se encarga de verificar a las personas que ingresan a la organización.
         .col-lg-3.col-auto.mb-3.mb-lg-0
-          .tarjeta.tarjeta-up
+          .tarjeta-1.tarjeta-up
             img(src="@/assets/curso/images/tema3/tj_3.svg", alt= "")
             .tarjeta-up__content.bg-1
               h4 Otros:
@@ -161,7 +161,7 @@
 
             p.mb-0 Lo primero que se debe establecer es la responsabilidad de los usuarios en el uso de sus credenciales, las cuales son intransferibles. Por otro lado al momento de solicitar el cambio de contraseña, ya que este proceso se debe llevar a cabo con una periodicidad establecida, la cual puede variar de acuerdo a políticas, debe ser solicitado al personal de tecnología de la empresa o cumplir con algunos criterios mínimos, que se han expuesto anteriormente. 
 
-    p.mb3(data-aos="fade")  genérico de la importancia de establecer políticas de seguridad que garanticen el correcto funcionamiento de los elementos de tecnología de una organización.
+    p.mb3(data-aos="fade")  Lo anterior refleja el panorama genérico de la importancia de establecer políticas de seguridad que garanticen el correcto funcionamiento de los elementos de tecnología de una organización.
 
 
     .jumbotron.p-3(data-aos="fade")
