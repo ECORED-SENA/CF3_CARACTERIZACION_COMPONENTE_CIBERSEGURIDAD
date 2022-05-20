@@ -81,8 +81,8 @@
     p.mb-5 De igual forma, la manera en la que se establecerá la comunicación entre dos o más equipos en una red también es fundamental. El modelo de referencia OSI refleja los protocolos y fases en las cuales se establece dicha interacción entre las computadoras. Es la referencia en donde se puede observar la transformación de la información, pues cada capa de este modelo realiza su aporte a la comunicación y con base en este estándar se crean las reglas para establecer dicho proceso. Siguiendo esta línea, a continuación, se detalla cada una:
   
   .container.bg-white.px-md-5.px-3.py-0.container-top.fondo-2.mb-0.cs.d-none.d-lg-block
-    .row.justify-content-center.align-items-center.mb-5.p-4(data-aos="fade")
-      .col-lg-6.p-1.mb-2
+    .row.justify-content-center.align-items-center.mb-5.p-4
+      .col-lg-6.p-1.mb-2(data-aos="fade-left")
         LineaTiempoD
           .p-1(titulo='Aplicación' numero='7')
             .row.align-items-center
@@ -119,7 +119,7 @@
               .col-lg-12
                 p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada host de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
       .col-lg-5.mt-5(data-aos="fade-right")     
-        img(src='@/assets/curso/images/tema2/img_6.svg'  alt='', style="width:360px; display:block; margin: -2.5rem 7rem;")
+        img.mt-5(src='@/assets/curso/images/tema2/img_6.svg'  alt='', style="width:360px; display:block; margin: -2.5rem 7rem;")
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5.cs  
 
@@ -161,7 +161,7 @@
               .col-lg-12
                 p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada host de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
       .col-lg-5.mt-5(data-aos="fade-right")     
-        img(src='@/assets/curso/images/tema2/img_6.svg'  alt='', style="width:360px; display:block; margin: -1.5rem 1rem;")
+        img(src='@/assets/curso/images/tema2/img_6.svg'  alt='', style="width:360px; display:block; margin: -1.5rem -1.5rem;")
     .jumbotron.p-3(data-aos="fade")
       .row.align-items-center.justify-content-center
         .col-lg-1
