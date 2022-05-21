@@ -39,7 +39,7 @@
           p.mb-3 Cabe decir que la seguridad es una disciplina de constante evolución y permanencia; en otras palabras, es una actividad que se debe realizar de manera continua y permanente para mitigar los problemas y riesgos que se pueden presentar todos los días en contra de la infraestructura de las empresas.
   
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.cs.mg-top-1
-    p.my-5 Pero bueno, ¿qué se entiende por riesgo y estimación?, a continuación se conocerá un poco de ello:
+    p.aling-left.my-5 Pero bueno, ¿qué se entiende por riesgo y estimación?, a continuación se conocerá un poco de ello:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-6.col-lg-8.col-xl-8(data-aos="fade-right")
@@ -66,7 +66,8 @@
         .cajon.color-custom-2.p-4.mb-3
           p.mb-3 Aunque la estimación no es precisa en la mayoría de las ocasiones es importante aclarar que puede ser una herramienta que acompaña al diagnóstico de la infraestructura, ya que se puede predecir, de acuerdo a información de diversas fuentes, un suceso a ocurrir. En la mayoría de los casos, la estimación es utilizada para medir la gravedad del impacto de un ataque y de esta manera determinar el plan de contingencia si este llega a ocurrir.  
 
-    p.mb-3 El riesgo y la estimación van acompañados, ya que ambos impactan los planes de contingencia y de recuperación de la empresa. La siguiente figura 1 expone la importancia de este balance.
+    p.aling-left.mb-3 El riesgo y la estimación van acompañados, ya que ambos impactan los planes de contingencia y de recuperación de la empresa. La siguiente figura 1 expone la importancia de este balance.
+   
 
     .row.justify-content-center
       .col-lg-10
@@ -78,7 +79,7 @@
         figure
           img.m-3(src='@/assets/curso/images/tema1/img_2.svg')
     
-    p.mb-5 La matriz de riesgo es una herramienta que permite establecer cuáles son las amenazas y cuánto es el valor que las coloca en un rango de mayor prioridad. Por ejemplo, un ataque por virus es muy diferente a un ataque de <i>ransomware</i>, pues el impacto que este generaría es diferente y la mitigación y manera de prevenirlo es totalmente distinta; para este caso particular se debe tener en cuenta la categorización de impacto: bajo, medio y alto, dependiendo del daño que pueda ocasionar y qué tanto puede hacer que el negocio se detenga, tal como se observa en el ejemplo de la figura 2:
+    p.aling-left.mb-5 La matriz de riesgo es una herramienta que permite establecer cuáles son las amenazas y cuánto es el valor que las coloca en un rango de mayor prioridad. Por ejemplo, un ataque por virus es muy diferente a un ataque de <i>ransomware</i>, pues el impacto que este generaría es diferente y la mitigación y manera de prevenirlo es totalmente distinta; para este caso particular se debe tener en cuenta la categorización de impacto: bajo, medio y alto, dependiendo del daño que pueda ocasionar y qué tanto puede hacer que el negocio se detenga, tal como se observa en el ejemplo de la figura 2:
 
     .row.justify-content-center
       .col-lg-12

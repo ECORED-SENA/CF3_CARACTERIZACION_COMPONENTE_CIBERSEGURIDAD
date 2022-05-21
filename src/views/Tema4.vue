@@ -24,7 +24,7 @@
             img.m-3(src='@/assets/curso/images/tema4/fig_1.svg')
 
 
-    p.mb-3 Por su parte, el ciclo PHVA cumple con un propósito específico para la aplicación de la norma ISO 27001. Consiste en brindar los procesos que se deben seguir y su interrelación; es decir, garantiza la continuidad de los procesos establecidos en la norma ISO 27001 y aplica los enfoques de la mejora continua para cada uno de sus procesos (ver figura 5).
+    p.aling-left.mb-3 Por su parte, el ciclo PHVA cumple con un propósito específico para la aplicación de la norma ISO 27001. Consiste en brindar los procesos que se deben seguir y su interrelación; es decir, garantiza la continuidad de los procesos establecidos en la norma ISO 27001 y aplica los enfoques de la mejora continua para cada uno de sus procesos (ver figura 5).
 
     .row.justify-content-center
       .col-lg-10
