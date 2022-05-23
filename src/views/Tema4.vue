@@ -13,7 +13,7 @@
         p.mb-0 El propósito de este estándar es garantizar el acceso y protección de la información de acuerdo con los lineamientos establecidos en este mismo estándar. En otras palabras, debe generar confianza y proveer los mecanismos de acceso y tratamiento de la información almacenada. Para ello, se establecen los siguientes riesgos que se pueden revisar en la figura 4:
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-6.mb-0.cs
-    .row.justify-content-center
+    .row.justify-content-center.aling-left
       .col-lg-8
         .titulo-sexto.color-acento-botones
           h5 Figura 4. 

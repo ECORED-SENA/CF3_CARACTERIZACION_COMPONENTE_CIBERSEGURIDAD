@@ -69,7 +69,7 @@
     p.aling-left.mb-3 El riesgo y la estimación van acompañados, ya que ambos impactan los planes de contingencia y de recuperación de la empresa. La siguiente figura 1 expone la importancia de este balance.
    
 
-    .row.justify-content-center
+    .row.justify-content-center.aling-left
       .col-lg-10
         .titulo-sexto.color-acento-botones
           h5 Figura 1. 
@@ -82,7 +82,7 @@
     p.aling-left.mb-5 La matriz de riesgo es una herramienta que permite establecer cuáles son las amenazas y cuánto es el valor que las coloca en un rango de mayor prioridad. Por ejemplo, un ataque por virus es muy diferente a un ataque de <i>ransomware</i>, pues el impacto que este generaría es diferente y la mitigación y manera de prevenirlo es totalmente distinta; para este caso particular se debe tener en cuenta la categorización de impacto: bajo, medio y alto, dependiendo del daño que pueda ocasionar y qué tanto puede hacer que el negocio se detenga, tal como se observa en el ejemplo de la figura 2:
 
     .row.justify-content-center
-      .col-lg-12
+      .col-lg-12.aling-left
         .titulo-sexto.color-acento-botones
           h5 Figura 2. 
           span Matriz de riesgo

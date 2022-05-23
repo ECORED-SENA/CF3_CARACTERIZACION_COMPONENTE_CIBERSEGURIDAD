@@ -11,7 +11,7 @@
 
   
     .row.justify-content-center.align-items-center.bg_grad-01.mb-3
-      .row.justify-content-center
+      .row.justify-content-center.mt-5
         .col-lg-12(data-aos="fade")
           .titulo-sexto.color-acento-botones
             h5 Figura 3. 
