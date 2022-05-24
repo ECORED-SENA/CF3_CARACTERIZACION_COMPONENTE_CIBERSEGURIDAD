@@ -50,7 +50,8 @@
             .cajon.color-custom-4.p-4.mb-3
               p.mb-3 Utilizar como mínimo 8 caracteres, mezclar mayúsculas, minúsculas, números, letras y caracteres especiales, no incluir fechas especiales, nombres o información que se encuentre almacenada en el registro previo realizado al sistema.
 
-          p.mt-3 La actualización de estos parches de seguridad se realiza ingresando al sistema de configuración del dispositivo, en algunas ocasiones cuando se tiene contratado un servicio con una empresa es ella quien realiza este proceso de actualización de manera remota, pero en los casos de tener autonomía total en los dispositivos se pueden comprar las actualizaciones o servicios para que se realicen lo más pronto posible.
+          p.mt-3 También es importante tener en cuenta realizar el cambio de contraseña con frecuencia, la cual se puede establecer en un periodo determinado; puede estar fijado por una fecha específica desde la asignación de la contraseña o por el número de intentos acertados del usuario.
+
       
       div(titulo="Autenticación")
         .row.align-items-center.justify-content-center.p-4
@@ -62,19 +63,19 @@
             p Dichos dispositivos requieren de una configuración y en algunos casos de una calibración tal que es necesario, en algunos momentos, la contratación de personal experto para realizar el montaje y puesta en marcha de los mismos, dentro de los cuales se destacan: lector de huella, lectura de iris, comandos con reconocimiento de voz, detección de rostro, entre otros.
            
       
-      div(titulo="Soluciones de hardware y software")
+      div(titulo="Soluciones de <em>hardware</em> y <em>software</em>")
         .row.align-items-center.justify-content-center.p-4
           .col-lg-3
             img(src='@/assets/curso/images/tema2/img_5.png'  alt='', style="width:600px; display:block; margin:auto 0;").mb-3
           .col-lg-9
             p.mb-3 De acuerdo a las necesidades de la empresa se deben implementar soluciones a la medida y que estas estén debidamente acopladas a los lineamientos técnicos necesarios de la empresa; es decir, la adquisición de estos bienes deben estar soportados por una necesidad real.
 
-            p Cuando se hace referencia a soluciones de hardware y software se debe tener en cuenta que pueden ser físicas o lógicas y que deben ser usados para minimizar el riesgo de acceso o vulnerabilidades del sistema dentro de los cuales se encuentran: software generadores de contraseñas seguras, lectores de tarjetas inteligentes, lectores de huella, firewall, antivirus, entre otros.
+            p Cuando se hace referencia a soluciones de <em>hardware</em> y <em>software</em> se debe tener en cuenta que pueden ser físicas o lógicas y que deben ser usados para minimizar el riesgo de acceso o vulnerabilidades del sistema dentro de los cuales se encuentran: <em>software</em> generadores de contraseñas seguras, lectores de tarjetas inteligentes, lectores de huella, <i>firewall</i>, antivirus, entre otros.
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="fade")
         .cajon.color-custom-2.p-4.mb-3
-          p.mb-3 Uno de los aspectos a tener en cuenta al momento de la implementación o adquisición de estos elementos es la cantidad de usuarios que utilizan estos dispositivos, sobre todo en la solución de hardware y software, la cantidad de datos que estos producirán y cómo será el proceso de respaldo de esta información; puesto que es importante no solo pensar en la implementación sino cómo estos nuevos datos deben ser tratados y manipulados.
+          p.mb-3 Uno de los aspectos a tener en cuenta al momento de la implementación o adquisición de estos elementos es la cantidad de usuarios que utilizan estos dispositivos, sobre todo en la solución de <em>hardware</em> y <em>software</em>, la cantidad de datos que estos producirán y cómo será el proceso de respaldo de esta información; puesto que es importante no solo pensar en la implementación sino cómo estos nuevos datos deben ser tratados y manipulados.
   
   .container.bg-white.px-md-5.px-3.py-0.container-top.fondo.mb-0.cs
 
@@ -87,7 +88,7 @@
           .p-1(titulo='Aplicación' numero='7')
             .row.align-items-center
               .col-lg-12
-                p Esta capa brinda soporte a los software que se utilizan y su propósito dentro de la infraestructura, esto incluye la utilización de diferentes protocolos de comunicación tales como: HTTP, FTP, SMTP, POP, entre 
+                p Esta capa brinda soporte a los <em>software</em> que se utilizan y su propósito dentro de la infraestructura, esto incluye la utilización de diferentes protocolos de comunicación tales como: HTTP, FTP, SMTP, POP, entre 
           .p-1(titulo='Presentación' numero='6')
             .row.align-items-center
               .col-lg-12
@@ -96,7 +97,7 @@
           .p-1(titulo='Sesión' numero='5')
             .row.align-items-center
               .col-lg-12
-                p Establece los tiempos que debe durar la conexión de acuerdo a la comunicación establecida entre las dos partes. Este aspecto es importante debido a que la sesión se mantendrá abierta, siempre y cuando se encuentre el host conectado; una vez se desconecta, se debe cerrar o destruir la sesión.
+                p Establece los tiempos que debe durar la conexión de acuerdo a la comunicación establecida entre las dos partes. Este aspecto es importante debido a que la sesión se mantendrá abierta, siempre y cuando se encuentre el #[i host] conectado; una vez se desconecta, se debe cerrar o destruir la sesión.
           
           .p-1(titulo='Transporte' numero='4')
             .row.align-items-center
@@ -107,17 +108,17 @@
           .p-1(titulo='Red' numero='3')
             .row.align-items-center
               .col-lg-12
-                p Se encarga de transmitir los datos entre los diferentes host de la red y mantener las conexiones mientras se transmiten los datos entre extremos.  Esto concluye cuando se realiza la entrega de los datos o paquetes enviados entre los host.
+                p Se encarga de transmitir los datos entre los diferentes #[i host] de la red y mantener las conexiones mientras se transmiten los datos entre extremos.  Esto concluye cuando se realiza la entrega de los datos o paquetes enviados entre los #[i host].
 
           .p-1(titulo='Enlace de datos' numero='2')
             .row.align-items-center
               .col-lg-12
-                p Realiza la revisión de errores al momento del envío de los datos o paquetes a través de la red. Adicional a ello, controla el flujo de datos entre los diferentes host de la red y provee la secuencia de entrega de los diferentes paquetes.
+                p Realiza la revisión de errores al momento del envío de los datos o paquetes a través de la red. Adicional a ello, controla el flujo de datos entre los diferentes #[i host] de la red y provee la secuencia de entrega de los diferentes paquetes.
             
           .p-1(titulo='Físico' numero='1')
             .row.align-items-center
               .col-lg-12
-                p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada host de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
+                p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada #[i host] de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
       .col-lg-5.mt-5(data-aos="fade-right")     
         img.mt-5(src='@/assets/curso/images/tema2/img_6.svg'  alt='', style="width:360px; display:block; margin: -2.5rem 7rem;")
 
@@ -129,7 +130,7 @@
           .p-1(titulo='Aplicación' numero='7')
             .row.align-items-center
               .col-lg-12
-                p Esta capa brinda soporte a los software que se utilizan y su propósito dentro de la infraestructura, esto incluye la utilización de diferentes protocolos de comunicación tales como: HTTP, FTP, SMTP, POP, entre 
+                p Esta capa brinda soporte a los <em>software</em> que se utilizan y su propósito dentro de la infraestructura, esto incluye la utilización de diferentes protocolos de comunicación tales como: HTTP, FTP, SMTP, POP, entre 
           .p-1(titulo='Presentación' numero='6')
             .row.align-items-center
               .col-lg-12
@@ -138,7 +139,7 @@
           .p-1(titulo='Sesión' numero='5')
             .row.align-items-center
               .col-lg-12
-                p Establece los tiempos que debe durar la conexión de acuerdo a la comunicación establecida entre las dos partes. Este aspecto es importante debido a que la sesión se mantendrá abierta, siempre y cuando se encuentre el host conectado; una vez se desconecta, se debe cerrar o destruir la sesión.
+                p Establece los tiempos que debe durar la conexión de acuerdo a la comunicación establecida entre las dos partes. Este aspecto es importante debido a que la sesión se mantendrá abierta, siempre y cuando se encuentre el #[i host] conectado; una vez se desconecta, se debe cerrar o destruir la sesión.
           
           .p-1(titulo='Transporte' numero='4')
             .row.align-items-center
@@ -149,17 +150,17 @@
           .p-1(titulo='Red' numero='3')
             .row.align-items-center
               .col-lg-12
-                p Se encarga de transmitir los datos entre los diferentes host de la red y mantener las conexiones mientras se transmiten los datos entre extremos.  Esto concluye cuando se realiza la entrega de los datos o paquetes enviados entre los host.
+                p Se encarga de transmitir los datos entre los diferentes #[i host] de la red y mantener las conexiones mientras se transmiten los datos entre extremos.  Esto concluye cuando se realiza la entrega de los datos o paquetes enviados entre los #[i host].
 
           .p-1(titulo='Enlace de datos' numero='2')
             .row.align-items-center
               .col-lg-12
-                p Realiza la revisión de errores al momento del envío de los datos o paquetes a través de la red. Adicional a ello, controla el flujo de datos entre los diferentes host de la red y provee la secuencia de entrega de los diferentes paquetes.
+                p Realiza la revisión de errores al momento del envío de los datos o paquetes a través de la red. Adicional a ello, controla el flujo de datos entre los diferentes #[i host] de la red y provee la secuencia de entrega de los diferentes paquetes.
             
           .p-1(titulo='Físico' numero='1')
             .row.align-items-center
               .col-lg-12
-                p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada host de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
+                p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada #[i host] de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
       .col-lg-5.mt-5(data-aos="fade-right")     
         img(src='@/assets/curso/images/tema2/img_6.svg'  alt='', style="width:360px; display:block; margin: -1.5rem -1.5rem;")
     .jumbotron.p-3(data-aos="fade")

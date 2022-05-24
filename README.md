@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **Controles y estándares para el manejo de la seguridad de la información**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **sena.github.io/CF3_CARACTERIZACION_COMPONENTE_CIBERSEGURIDAD/**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[sena.github.io/CF3_CARACTERIZACION_COMPONENTE_CIBERSEGURIDAD//](sena.github.io/CF3_CARACTERIZACION_COMPONENTE_CIBERSEGURIDAD/)
 
 #
 

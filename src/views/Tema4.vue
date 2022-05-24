@@ -83,7 +83,8 @@
             .row 
               .col-lg-12.mb-4
                 h4 Cláusula 4: Contexto de la organización
-                p.mb-0 La norma conversa sobre los riesgos y tratamiento de los mismos al momento de realizar el proceso de manipulación de sistemas de información. También provee los mecanismos para el control de acceso a la evaluación de los riesgos y cómo estos deben ser tratados para evitar problemas de seguridad de la información dentro de la organización.
+                p.mb-0 La manera y áreas específicas en la cual se implemente la norma dependerá del contexto mismo de la organización, donde estipule que es un proceso crítico y se establezca cuál es la prioridad. El contexto puede apreciarse desde dos áreas: interno y externo. En el primero se realiza para el control de algunos aspectos de la organización pero que solo afectan de manera interna otros procesos. En el segundo, por su parte, son aquellos aspectos en los que la organización no tiene control; por ejemplo, proveedores, contratistas, entre otros.
+
             
       .col-lg-4(data-aos="fade-left")
         img(src='@/assets/curso/images/tema4/img_1_2.png' alt='', style="width:340px; display:block; margin:auto 2.5rem;")
@@ -210,8 +211,6 @@
                 h3 Cláusula 8: Operación
             
                 p.mb-3 La implementación de estos procesos del sistema de seguridad deben estar enmarcados en el cumplimiento de buenas prácticas. Algunas de los componentes a desarrollar para su correcto funcionamiento son los siguientes:
-
-                p.mb-3 La implementación de estos procesos del sistema de seguridad deben estar enmarcados en el cumplimiento de buenas prácticas. Algunas de los componentes a desarrollar para su correcto funcionamiento son los siguientes:
                 ul.lista-ul--color
                   li 
                     i.fas.fa-circle.font-size
@@ -227,7 +226,7 @@
                     P Asignar los recursos tanto tecnológicos como humanos para ejecutar de la manera más apropiada el proceso de implementación del sistema.
                   li
                     i.fas.fa-circle.font-size
-                    P Etablecer la periodicidad de la evaluación del los procesos para determinar que estos están funcionando de la manera más eficiente y en pro de la gestión de la seguridad de la información. 
+                    P Etablecer la periodicidad de la evaluación de los procesos para determinar que estos están funcionando de la manera más eficiente y en pro de la gestión de la seguridad de la información. 
 
           .tarjeta.back-tab.p-4(titulo="Cláusula 9: Desempeño y evaluación")
             
@@ -257,7 +256,11 @@
           img(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:100px; display:block; margin:auto 0;")
         .col-lg-10
           h3 Para recordar
-          p.mb-3 La norma ISO 27001, junto con sus cláusulas, permite establecer los lineamientos para realizar una correcta administración de los sistemas y del personal encargado de manipularlos.        
+          p.mb-3 La norma ISO 27001, junto con sus cláusulas, permite establecer los lineamientos para realizar una correcta administración de los sistemas y del personal encargado de manipularlos.  
+
+          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Norma._NTC-ISO-IEC_27001.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download      
 
 
 

@@ -7,7 +7,7 @@
         span 3
       h1 Seguridad física y políticas de seguridad
 
-    p.mb-3 La seguridad física es uno de los aspectos fundamentales en una organización. Esta permite crear los mecanismos de barrera para salvaguardar los activos de la misma; sabiendo esto, a continuación, se precisan algunos conceptos en la figura 3:
+    p.mb-3 La #[b seguridad física] es uno de los aspectos fundamentales en una organización. Esta permite crear los mecanismos de barrera para salvaguardar los activos de la misma; sabiendo esto, a continuación, se precisan algunos conceptos en la figura 3:
 
   
     .row.justify-content-center.align-items-center.bg_grad-01.mb-3
@@ -149,7 +149,7 @@
             img(src='@/assets/curso/images/tema3/ico_6.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .col-lg-10
             .h5.mb-2 Política de control de acceso
-            p Este aspecto está relacionado con las adquisiciones que se realizan desde el departamento de tecnologías, el cual debe haber realizado un estudio previo  de acuerdo a la viabilidad y necesidades tanto de usuarios como de la infraestructura de la empresa.  En algunas ocasiones es importante tener en cuenta que en la mayoría de los casos estos procesos de adquisición tanto de hardware como de software deben estar avalados por una licitación, en la que participen distintos interesados para sí proceder a estudiar dichas propuestas y determinar cuál cumple con los requerimientos que se necesitan.
+            p Este aspecto está relacionado con las adquisiciones que se realizan desde el departamento de tecnologías, el cual debe haber realizado un estudio previo  de acuerdo a la viabilidad y necesidades tanto de usuarios como de la infraestructura de la empresa.  En algunas ocasiones es importante tener en cuenta que en la mayoría de los casos estos procesos de adquisición tanto de <em>hardware</em> como de <em>software</em> deben estar avalados por una licitación, en la que participen distintos interesados para sí proceder a estudiar dichas propuestas y determinar cuál cumple con los requerimientos que se necesitan.
 
       div(x="64%" y="79%" tooltip="Política de establecimiento, uso y protección de claves de acceso")
         .row.justify-content-center

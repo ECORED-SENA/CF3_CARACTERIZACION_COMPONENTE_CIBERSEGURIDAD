@@ -20,7 +20,7 @@
     )
       .bloque-texto-g__texto.my-4.p-5.mx-4
     
-        p Los planes de recuperación de desastres establecen procedimientos y métricas para analizar los posibles desastres y cómo se puede recuperar el sistema después de ocurridos estos eventos, dentro de los cuales pueden existir causas que no son predecibles en momentos determinados como son los desastres naturales.de comportamiento ha cambiado a lo largo de los tiempos, ya que los ataques son cada vez más directos y dañinos.
+        p.mb-0 Los planes de recuperación de desastres establecen procedimientos y métricas para analizar los posibles desastres y cómo se puede recuperar el sistema después de ocurridos estos eventos, dentro de los cuales pueden existir causas que no son predecibles en momentos determinados como son los desastres naturales.
 
 
     .bloque-texto-a.color-custom-6.p-md-0.mb-5.d-block.d-lg-none
@@ -57,7 +57,7 @@
         img(src='@/assets/curso/images/tema5/img_2.png' alt='', style="width:500px; display:block; margin:auto 0;")
       .col-lg-6(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
-          .p(titulo='Disponibilidad' numero='1')
+          .p(titulo='Protección de la información en los ambientes TIC' numero='1')
             .row.align-items-center
               .col-lg-12
                 p.mb-3  Uno de los aspectos a tener en cuenta dentro del <b>DRP</b> es la protección de la información en los lugares donde se procesa y se almacena la misma, esto incluye todos los espacios, dispositivos y demás elementos usados para este proceso.
@@ -114,22 +114,22 @@
       .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/images/tema5/img_3.png' alt='', style="width:500px; display:block; margin:auto -0.5rem;").mb-3
 
-    p.mb-3 Ahora bien, para la gestión de todos esos procesos se encuentra lo que se conoce como Cobit, el cual es un marco de trabajo establecido para garantizar el gobierno de tecnología a través del establecimiento de guías y procesos que aseguren un correcto manejo de la información en las organizaciones (ver figura 10).
+    p.mb-3 Ahora bien, para la gestión de todos esos procesos se encuentra lo que se conoce como <em>Cobit</em>, el cual es un marco de trabajo establecido para garantizar el gobierno de tecnología a través del establecimiento de guías y procesos que aseguren un correcto manejo de la información en las organizaciones (ver figura 10).
 
     .row.justify-content-center.p-5
       .col-lg-10
         .titulo-sexto.color-acento-botones
           h5 Figura 10. 
-          span Entorno Cobit
+          span Entorno <em>Cobit</em>
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10(data-aos="fade")
           figure
             img.mb-2(src='@/assets/curso/images/tema5/fig_3.svg') 
             figcaption #[p.mb-0 Nota. Tomado de ISACA (s.f.).]
 
-    p.mb-3 Ya sabiendo lo anterior, es preciso saber que Cobit comprende cinco principios de trabajo que estipulan la manera en cómo interactúan los procesos dentro de una organización. A continuación se pueden reconocer:
+    p.mb-3 Ya sabiendo lo anterior, es preciso saber que <em>Cobit</em> comprende cinco principios de trabajo que estipulan la manera en cómo interactúan los procesos dentro de una organización. A continuación se pueden reconocer:
 
-    h3.text-center.mb-5 Principios Cobit
+    h3.text-center.mb-5 Principios <em>Cobit</em>
 
     .row.justify-content-center.mb-3
       .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="fade")
@@ -142,7 +142,7 @@
         .tarjeta-numerada.color-acento-contenido.h-100.p-5.mx-3
           .tarjeta-numerada__numero
             .h2 2
-          p.mb-4 Se refiere al cubrimiento total de los procesos de la empresa. Esto implica que no solo se concentra en la tecnología, dispositivos, hardware y software sino que involucra al factor humano como eje fundamental en los objetivos de la organización.
+          p.mb-4 Se refiere al cubrimiento total de los procesos de la empresa. Esto implica que no solo se concentra en la tecnología, dispositivos, <em>hardware</em> y <em>software</em> sino que involucra al factor humano como eje fundamental en los objetivos de la organización.
 
       .col-lg-4.col-auto.mb-3.mb-lg-0(data-aos="fade")
         .tarjeta-numerada.color-primario.h-100.p-5.mx-3
@@ -171,7 +171,7 @@
       .row.m-4.align-items-center.justify-content-between
         .col-lg-8.mb-3(data-aos="fade-right")
           .bloque-texto-a__texto.p-4.my-4
-            p Cabe destacar que Cobit es válido en su aplicación para cualquier organización teniendo grandes beneficios en la optimización de procesos y mejorando los niveles de riesgo de los recursos tecnológicos. Es una herramienta esencial para el gobierno de tecnología en una organización, ya que este entrega las guías que se deben tener en cuenta para realizar un proceso de gestión de la tecnología y la información de manera adecuada, permitiendo, además, que la infraestructura como la información funcionen de una manera armónica.
+            p Cabe destacar que <em>Cobit</em> es válido en su aplicación para cualquier organización teniendo grandes beneficios en la optimización de procesos y mejorando los niveles de riesgo de los recursos tecnológicos. Es una herramienta esencial para el gobierno de tecnología en una organización, ya que este entrega las guías que se deben tener en cuenta para realizar un proceso de gestión de la tecnología y la información de manera adecuada, permitiendo, además, que la infraestructura como la información funcionen de una manera armónica.
         .col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/images/tema5/img_4.svg')
@@ -179,7 +179,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="fade")
         .cajon.color-custom-2.p-4.mb-3
-          p.mb-3 Los principios de Cobit son aplicados independientemente del tamaño de la organización y genera cultura organizacional y buenas prácticas en la organización.
+          p.mb-3 Los principios de <em>Cobit</em> son aplicados independientemente del tamaño de la organización y genera cultura organizacional y buenas prácticas en la organización.
 
 
 
