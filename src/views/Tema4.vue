@@ -95,7 +95,7 @@
         .contenedor-text-1
           .row.justify-content-center.p-4
             .col-auto
-              p.text-white.mb-3 En la cláusula Contexto de la organización, como se mencionó, se deben tener en cuenta los aspectos tanto internos como externos de una empresa, tal como se presenta a continuación:
+              p.text-white.mb-3 En la Cláusula Contexto de la organización, como se mencionó, se deben tener en cuenta los aspectos tanto internos como externos de una empresa, tal como se presenta a continuación:
         .row.justify-content-evenly.align-items-center.mt-5.p-5
           .col-lg-5(data-aos="fade-right")
             img(src='@/assets/curso/images/tema4/img_2.svg' alt='', style="width:500px; display:block; margin:auto 0;")
@@ -105,7 +105,7 @@
               .row(titulo='Formato de la información' numero='1')
                 .row.align-items-center
                   .col-lg-12
-                    p conocer los tipos de información que maneja y el porcentaje que tiene en cada una; por ejemplo, información impresa, digital, en medios magnéticos o en la nube. Este aspecto es importante para establecer los mecanismos de acceso y protección de estos activos.
+                    p Conocer los tipos de información que maneja y el porcentaje que tiene en cada una; por ejemplo, información impresa, digital, en medios magnéticos o en la nube. Este aspecto es importante para establecer los mecanismos de acceso y protección de estos activos.
               .row(titulo='Cultura organizacional' numero='2')
                 .row.align-items-center
                   .col-lg-12
@@ -171,7 +171,7 @@
                 h3 Cláusula 6: Planificación
                 p.mb-3 La planificación hace parte de la mitigación de los hallazgos que se pueden encontrar. Es una herramienta poderosa para evitar y estudiar posibles eventos futuros que pueden atentar contra la seguridad de la información de la organización. También permite realizar planes de mejora a los aspectos que se encuentran en un nivel de vulnerabilidad visible y aumentar la posibilidad de identificar riesgos que no han sido mitigados y que se pueden convertir en un problema de mayor escala más adelante. De igual forma, incrementa la participación del personal encargado de velar por el correcto funcionamiento de estos procesos. 
 
-                p.mb-3 Los riesgos establecidos se deben tratar de una manera que permita identificar el impacto que estos pueden tener en la organización. Existen riesgos que no se pueden eliminar o simplemente olvidar, ya que estos están inmersos en el quehacer de la organización;, para estos riesgos, se determinan aspectos tales como aceptación del riesgo, identificación de la salida más acertada y realización de un estudio que permita determinar si este se puede evadir, escalar a otro nivel, transferirlo a otra dependencia o proceso que se encargue de su tratamiento, o simplemente crear planes de contingencia para que al momento que este ocurra su impacto no sea de una escala mayor para la organización.
+                p.mb-3 Los riesgos establecidos se deben tratar de una manera que permita identificar el impacto que estos pueden tener en la organización. Existen riesgos que no se pueden eliminar o simplemente olvidar, ya que estos están inmersos en el quehacer de la organización; para estos riesgos, se determinan aspectos tales como aceptación del riesgo, identificación la de salida más acertada y realización de un estudio que permita determinar si este se puede evadir, escalar a otro nivel, transferirlo a otra dependencia o proceso que se encargue de su tratamiento, o simplemente crear planes de contingencia para que al momento que este ocurra su impacto no sea de una escala mayor para la organización.
 
           
           .tarjeta.back-tab.p-4(titulo="Cláusula 7: Soportes")
@@ -181,7 +181,7 @@
                 h3 Cláusula 7: Soportes
                 p.mb-3 La implementación del sistema de gestión de la información debe contar con el apoyo de varios entes dentro de la organización; entre ellos se destaca: <b>la competencia, disponibilidad y capacidad.</b>
                 p.mb-3 <b>La capacidad</b> está relacionada no solo con el conocimiento de los miembros del equipo sino también con el manejo que estos le puedan dar a los procesos. Es importante establecer que cada miembro del equipo debe contar con un rol específico que asegura el cumplimiento de las políticas de seguridad.
-                p.mb-3 <b>Disponibilidad</b>se refiere a los tiempos establecidos para dar cumplimientos con los procesos y protocolos que están establecidos para el manejo de la información y la infraestructura. Por ejemplo, se deben establecer los tiempos para tratamiento de incidentes, atención a usuarios, entre otros.
+                p.mb-3 <b>Disponibilidad</b> se refiere a los tiempos establecidos para dar cumplimientos con los procesos y protocolos que están establecidos para el manejo de la información y la infraestructura. Por ejemplo, se deben establecer los tiempos para tratamiento de incidentes, atención a usuarios, entre otros.
                 p.mb-3 <b>La competencia</b> se refiere a las capacidades de los miembros del equipo de trabajo y cómo establecen los mecanismos para el cumplimiento de cada uno de los requerimientos que se necesitan dentro de la organización. Este aspecto tiene que ver mucho con la interdisciplinariedad del equipo de trabajo.
 
     .row.justify-content-center.align-items-center.my-5
@@ -189,7 +189,7 @@
         .contenedor-text-1
           .row.justify-content-center.p-4
             .col-auto
-              p.text-white.mb-3 <b>En la cláusula 7</b>, también se debe establecer qué información se requiere para la implementación del sistema de gestión de la información, la cual debe ser precisa, entendible para los involucrados en el proceso y apoyada en aspectos legales de la organización. Otros aspectos para tener en cuenta ya garantizar frente a este tema, se aprecian en la figura 7:
+              p.text-white.mb-3 <b>En la Cláusula 7</b>, también se debe establecer qué información se requiere para la implementación del sistema de gestión de la información, la cual debe ser precisa, entendible para los involucrados en el proceso y apoyada en aspectos legales de la organización. Otros aspectos para tener en cuenta ya garantizar frente a este tema, se aprecian en la figura 7:
         .row.justify-content-center.mt-5.p-5
           .col-lg-9
             .titulo-sexto.color-acento-botones
@@ -226,7 +226,7 @@
                     P Asignar los recursos tanto tecnológicos como humanos para ejecutar de la manera más apropiada el proceso de implementación del sistema.
                   li
                     i.fas.fa-circle.font-size
-                    P Etablecer la periodicidad de la evaluación de los procesos para determinar que estos están funcionando de la manera más eficiente y en pro de la gestión de la seguridad de la información. 
+                    P Establecer la periodicidad de la evaluación de los procesos para determinar que estos están funcionando de la manera más eficiente y en pro de la gestión de la seguridad de la información. 
 
           .tarjeta.back-tab.p-4(titulo="Cláusula 9: Desempeño y evaluación")
             

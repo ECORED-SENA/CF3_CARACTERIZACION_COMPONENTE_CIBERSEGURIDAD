@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade")
-        p.mb-0 En la actualidad el riesgo informático se ha convertido en uno de los temas de mayor conversación a lo largo del mundo, puesto que en tiempos actuales ha generado pánico entre la comunidad internacional. Por ejemplo, se han escuchado de ataques informáticos tales como Ransomware, que han desatado la pérdida de millones de dólares a empresas y particulares.
+        p.mb-0 En la actualidad el riesgo informático se ha convertido en uno de los temas de mayor conversación a lo largo del mundo, puesto que en tiempos actuales ha generado pánico entre la comunidad internacional. Por ejemplo, se han escuchado de ataques informáticos tales como <i> Ransomware, </i> que han desatado la pérdida de millones de dólares a empresas y particulares.
 
     
     .bloque-texto-g.color-custom-1.p-md-4.mb-5.d-none.d-lg-block

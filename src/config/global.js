@@ -154,7 +154,8 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Presidencia de la República. (2020).',
+      texto:
+        'Manual de políticas de seguridad de la información - Presidencia de la República. (2020).',
       tipo: 'Manual',
       descarga: '/downloads/M-TI-01-Manual-Politicas-Seguridad-Informacion.pdf',
     },

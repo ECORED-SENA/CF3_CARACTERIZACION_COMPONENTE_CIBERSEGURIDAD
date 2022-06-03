@@ -88,7 +88,7 @@
           .p-1(titulo='Aplicación' numero='7')
             .row.align-items-center
               .col-lg-12
-                p Esta capa brinda soporte a los <em>software</em> que se utilizan y su propósito dentro de la infraestructura, esto incluye la utilización de diferentes protocolos de comunicación tales como: HTTP, FTP, SMTP, POP, entre 
+                p Esta capa brinda soporte a los <em>software</em> que se utilizan y su propósito dentro de la infraestructura, esto incluye la utilización de diferentes protocolos de comunicación tales como: HTTP, FTP, SMTP, POP, entre otros.
           .p-1(titulo='Presentación' numero='6')
             .row.align-items-center
               .col-lg-12
@@ -108,17 +108,17 @@
           .p-1(titulo='Red' numero='3')
             .row.align-items-center
               .col-lg-12
-                p Se encarga de transmitir los datos entre los diferentes #[i host] de la red y mantener las conexiones mientras se transmiten los datos entre extremos.  Esto concluye cuando se realiza la entrega de los datos o paquetes enviados entre los #[i host].
+                p Se encarga de transmitir los datos entre los diferentes #[i hosts] de la red y mantener las conexiones mientras se transmiten los datos entre extremos.  Esto concluye cuando se realiza la entrega de los datos o paquetes enviados entre los #[i hosts].
 
           .p-1(titulo='Enlace de datos' numero='2')
             .row.align-items-center
               .col-lg-12
-                p Realiza la revisión de errores al momento del envío de los datos o paquetes a través de la red. Adicional a ello, controla el flujo de datos entre los diferentes #[i host] de la red y provee la secuencia de entrega de los diferentes paquetes.
+                p Realiza la revisión de errores al momento del envío de los datos o paquetes a través de la red. Adicional a ello, controla el flujo de datos entre los diferentes #[i hosts] de la red y provee la secuencia de entrega de los diferentes paquetes.
             
           .p-1(titulo='Físico' numero='1')
             .row.align-items-center
               .col-lg-12
-                p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada #[i host] de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
+                p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada #[i hosts] de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
       .col-lg-5.mt-5(data-aos="fade-right")     
         img.mt-5(src='@/assets/curso/images/tema2/img_6.svg'  alt='', style="width:360px; display:block; margin: -2.5rem 7rem;")
 
@@ -139,7 +139,7 @@
           .p-1(titulo='Sesión' numero='5')
             .row.align-items-center
               .col-lg-12
-                p Establece los tiempos que debe durar la conexión de acuerdo a la comunicación establecida entre las dos partes. Este aspecto es importante debido a que la sesión se mantendrá abierta, siempre y cuando se encuentre el #[i host] conectado; una vez se desconecta, se debe cerrar o destruir la sesión.
+                p Establece los tiempos que debe durar la conexión de acuerdo a la comunicación establecida entre las dos partes. Este aspecto es importante debido a que la sesión se mantendrá abierta, siempre y cuando se encuentre el #[i hosts] conectado; una vez se desconecta, se debe cerrar o destruir la sesión.
           
           .p-1(titulo='Transporte' numero='4')
             .row.align-items-center
@@ -150,17 +150,17 @@
           .p-1(titulo='Red' numero='3')
             .row.align-items-center
               .col-lg-12
-                p Se encarga de transmitir los datos entre los diferentes #[i host] de la red y mantener las conexiones mientras se transmiten los datos entre extremos.  Esto concluye cuando se realiza la entrega de los datos o paquetes enviados entre los #[i host].
+                p Se encarga de transmitir los datos entre los diferentes #[i hosts] de la red y mantener las conexiones mientras se transmiten los datos entre extremos.  Esto concluye cuando se realiza la entrega de los datos o paquetes enviados entre los #[i hosts].
 
           .p-1(titulo='Enlace de datos' numero='2')
             .row.align-items-center
               .col-lg-12
-                p Realiza la revisión de errores al momento del envío de los datos o paquetes a través de la red. Adicional a ello, controla el flujo de datos entre los diferentes #[i host] de la red y provee la secuencia de entrega de los diferentes paquetes.
+                p Realiza la revisión de errores al momento del envío de los datos o paquetes a través de la red. Adicional a ello, controla el flujo de datos entre los diferentes #[i hosts] de la red y provee la secuencia de entrega de los diferentes paquetes.
             
           .p-1(titulo='Físico' numero='1')
             .row.align-items-center
               .col-lg-12
-                p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada #[i host] de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
+                p Son los componentes de conexión físicos dentro de los cuales se destacan los cables eléctricos, de red, <i>routers, modems</i> y todo elemento físico utilizado para la transmisión de información. Es importante destacar que cada uno de los elementos físicos y de conexión crean los mecanismos físicos para establecer la conexión entre cada #[i hosts] de la red; es decir, este aspecto trata sobre todos los elementos físicos empleados para establecer la conexión.
       .col-lg-5.mt-5(data-aos="fade-right")     
         img(src='@/assets/curso/images/tema2/img_6.svg'  alt='', style="width:360px; display:block; margin: -1.5rem -1.5rem;")
     .jumbotron.p-3(data-aos="fade")
