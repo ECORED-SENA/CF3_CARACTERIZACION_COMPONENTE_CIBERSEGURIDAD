@@ -133,6 +133,12 @@
       bottom: -75%
     @media (max-width: $bp-max-sm)
       bottom: -68.5%
+  .tarjeta-up__content
+    height: 100% !important
+    
+  &:hover
+    .tarjeta-up__content
+      bottom: 100% !important
     
 
 .mg-top-1
@@ -402,5 +408,27 @@
   align-items: center
   transform: scale(1)
   margin-left: 30px
-
+.tarjeta-up-1
+  position: relative
+  overflow: hidden
+  min-height: 500px
+  background-repeat: no-repeat
+  background-size: cover
+  &__content
+    transition: all 0.5s ease-in-out
+    background-color: rgba(255, 255, 255, 0.9)
+    padding: 2em
+    position: absolute
+    width: 100%
+    left: 0
+    bottom: 0
+    transform: translateY(70%)
+    p
+      transition: opacity 0.5s ease-in-out
+      opacity: 0
+  &:hover
+    .tarjeta-up-1__content
+      transform: translateY(0)
+      p
+        opacity: 1
 
