@@ -125,10 +125,15 @@
 .tarjeta-1
   border-radius: 0px
 
-.tarjeta-up .tarjeta-up__content.bg-1 
-  background-color: rgba(255, 255, 255, 0.9)
-  bottom: -70%
-
+.tarjeta-up 
+  .tarjeta-up__content.bg-1 
+    background-color: rgba(255, 255, 255, 0.9)
+    bottom: -70%
+    @media (max-width: $bp-max-lg)
+      bottom: -75%
+    @media (max-width: $bp-max-sm)
+      bottom: -68.5%
+    
 
 .mg-top-1
   margin-top: -15px
@@ -181,7 +186,7 @@
   left: 50%
   transform: translateX(-50%) translateY(-50%)
   width: 72%
-  height: 100px
+  // height: 100px
   background-repeat: no-repeat
   background-size: cover
   background-color: #301850
@@ -202,6 +207,7 @@
     transform: translateX(-50%) translateY(0%)
 
 .jumbotron-2
+  position: relative
   background-color: #FFF
   border: #E05CBE 2px solid
   border-top-left-radius: 50px
@@ -216,15 +222,15 @@
 .titulo-sexto.color-acento-botones 
   border-left-color: #F55D8B
 
-.linea-tiempo-d__item__content__title 
-  cursor: pointer
-  font-size: 20px
-.linea-tiempo-d__item__dots::after 
-  content: ''
-  display: block
-  width: 0
-  height: 100%
-  border-left: 5px dotted #DCDFEE
+// .linea-tiempo-d__item__content__title 
+//   cursor: pointer
+//   font-size: 20px
+// .linea-tiempo-d__item__dots::after 
+//   content: ''
+//   display: block
+//   width: 0
+//   height: 100%
+//   border-left: 5px dotted #DCDFEE
 
 .m-left
   left: 50% !important 
@@ -240,6 +246,7 @@
   position: relative
   width: 60%
   background-color: #FFF
+  height: 100%
 
 .bloque-texto-g
   justify-content: flex-start !important 
@@ -360,19 +367,19 @@
       background-color: #DCDFEE
       color: #000
 
-.linea-tiempo-d__item__content__title:hover 
-  font-weight: 700
-  background-color: #DCDFEE
+// .linea-tiempo-d__item__content__title:hover 
+//   // font-weight: 700
+//   background-color: #DCDFEE
 
-.linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
-  font-weight: 700
-  background-color: #DCDFEE
+// .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+//   // font-weight: 700
+//   background-color: #DCDFEE
 
-.linea-tiempo-d__item__content__title 
-  display: flex
-  align-items: center
-  height: 63px
-  cursor: pointer
+// .linea-tiempo-d__item__content__title 
+//   display: flex
+//   align-items: center
+//   // height: 63px
+//   cursor: pointer
 
 .aling-left
   @media (max-width: 992px)

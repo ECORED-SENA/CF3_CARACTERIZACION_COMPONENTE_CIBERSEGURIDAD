@@ -17,19 +17,19 @@
             h5 Figura 3. 
             span Conceptos de mecanismos de seguridad
       .row.justify-content-center.mb-5
-        .col-lg-4.col-auto.mb-3.mb-lg-0
+        .col-lg-4.mb-3.mb-lg-0.col-10
           .tarjeta-1.tarjeta-up
             img(src="@/assets/curso/images/tema3/tj_1.svg", alt= "")
             .tarjeta-up__content.bg-1
               h4 Activo físico:
               p Es todo aquel elemento tangible dentro de un espacio; es decir, todo aquello que se puede palpar; un ejemplo de ello, es una computadora, una mesa, una silla, entre otros.
-        .col-lg-4.col-auto.mb-3.mb-lg-0
+        .col-lg-4.mb-3.mb-lg-0.col-10
           .tarjeta-1.tarjeta-up
             img(src="@/assets/curso/images/tema3/tj_2.svg", alt= "")
             .tarjeta-up__content.bg-1
               h4 Seguridad física:
               p Busca garantizar la seguridad de los activos físicos, colocando barreras para su protección. Un ejemplo puede ser el guardia de seguridad, quien se encarga de verificar a las personas que ingresan a la organización.
-        .col-lg-4.col-auto.mb-3.mb-lg-0
+        .col-lg-4.mb-3.mb-lg-0.col-10
           .tarjeta-1.tarjeta-up
             img(src="@/assets/curso/images/tema3/tj_3.svg", alt= "")
             .tarjeta-up__content.bg-1

@@ -186,10 +186,8 @@
 
     .row.justify-content-center.align-items-center.my-5
       .jumbotron-2(data-aos="fade")
-        .contenedor-text-1
-          .row.justify-content-center.p-4
-            .col-auto
-              p.text-white.mb-3 <b>En la Cláusula 7</b>, también se debe establecer qué información se requiere para la implementación del sistema de gestión de la información, la cual debe ser precisa, entendible para los involucrados en el proceso y apoyada en aspectos legales de la organización. Otros aspectos para tener en cuenta ya garantizar frente a este tema, se aprecian en la figura 7:
+        .contenedor-text-1.px-3.py-3
+          p.text-white.mb-0 <b>En la Cláusula 7</b>, también se debe establecer qué información se requiere para la implementación del sistema de gestión de la información, la cual debe ser precisa, entendible para los involucrados en el proceso y apoyada en aspectos legales de la organización. Otros aspectos para tener en cuenta ya garantizar frente a este tema, se aprecian en la figura 7:
         .row.justify-content-center.mt-5.p-5
           .col-lg-9
             .titulo-sexto.color-acento-botones

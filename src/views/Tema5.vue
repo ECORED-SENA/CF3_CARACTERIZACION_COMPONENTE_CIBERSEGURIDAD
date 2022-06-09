@@ -53,18 +53,14 @@
     p.mb-3 Cabe destacar que la implementación de un plan de recuperación de desastres contiene varios aspectos para tener en cuenta, a continuación se pueden conocer:
 
     .row.justify-content-center.align-items-center.mt-5.p-3
-      .col-lg-6.mb-3(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema5/img_2.png' alt='', style="width:500px; display:block; margin:auto 0;")
-      .col-lg-6(data-aos="fade-left")
+      .col-xl-6.mb-3.col-8(data-aos="fade-right")
+        img(src='@/assets/curso/images/tema5/img_2.png' alt='', style="")
+      .col-xl-6(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .p(titulo='Protección de la información en los ambientes TIC' numero='1')
-            .row.align-items-center
-              .col-lg-12
-                p.mb-3  Uno de los aspectos a tener en cuenta dentro del <b>DRP</b> es la protección de la información en los lugares donde se procesa y se almacena la misma, esto incluye todos los espacios, dispositivos y demás elementos usados para este proceso.
-                p.mb-0 Dicha protección requiere la implementación de mecanismos de seguridad donde también el recurso humano juega un papel importante. Entiéndase como ambiente TIC todo lugar que debe tener una medida de seguridad y donde se encuentran los dispositivos esenciales para llevar a cabo las funciones sustantivas de la empresa; en palabras técnicas, serían los centros de datos donde se encuentran los dispositivos de comunicación, tales como: <i>switches</i>, <i>routers</i>, <i>modems</i>, cableado, servidores, NAS, entre otros.
+            p.mb-3  Uno de los aspectos a tener en cuenta dentro del <b>DRP</b> es la protección de la información en los lugares donde se procesa y se almacena la misma, esto incluye todos los espacios, dispositivos y demás elementos usados para este proceso.
+            p.mb-0 Dicha protección requiere la implementación de mecanismos de seguridad donde también el recurso humano juega un papel importante. Entiéndase como ambiente TIC todo lugar que debe tener una medida de seguridad y donde se encuentran los dispositivos esenciales para llevar a cabo las funciones sustantivas de la empresa; en palabras técnicas, serían los centros de datos donde se encuentran los dispositivos de comunicación, tales como: <i>switches</i>, <i>routers</i>, <i>modems</i>, cableado, servidores, NAS, entre otros.
           .p(titulo='Estrategia de recuperación' numero='2')
-            .row.align-items-center
-              .col-lg-12
                 p.mb-3  Existen muchas estrategias que se pueden implementar para tal propósito, pero lo que sí se debe  tener presente es que, como esta estrategia se encuentra reflejada en el <b>DRP</b>, existen muchos factores a tener en cuenta para establecer una ruta de ejecución. Uno de ellos es la <b>evaluación de los datos</b>, que consiste en la verificación de lo ocurrido en el suceso presentado, dando un punto de partida para la estrategia de recuperación.
                 p.mb-0 Otro factor a tener en cuenta es el <b>tiempo estimado de la recuperación</b> en donde se validan. En algunas ocasiones se trata de buscar los mecanismos que permitan disminuir este tiempo puesto que en algunos casos la empresa puede perder dinero cuando el sistema deja de estar operativo. Un ejemplo de ellos son los bancos. Estos deben tener unas estrategias de recuperación con tiempos que no generen grandes pérdidas o caídas del sistema que perjudiquen a los procesos del negocio.
 
@@ -92,7 +88,7 @@
                     img.m-3(src='@/assets/curso/images/tema5/fig_2.svg') 
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-6.mb-3(data-aos="fade-left")
+      .col-xl-6.mb-3(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .p(titulo='Notificación de eventos' numero='5')
             .row.align-items-center
